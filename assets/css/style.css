@@ -1,0 +1,13 @@
+/* @import "variables.css";
+@import "header.css";
+@import "footer";
+@import "main"; */
+
+
+/*style pour faire disparaitre les images quand on passe la souris dessus*/
+div{
+    background-image: url(../Images/automne.jpeg);
+    height: 225;
+    width: 400;
+    margin: auto;
+}
