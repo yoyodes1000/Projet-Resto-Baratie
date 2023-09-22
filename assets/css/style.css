@@ -2,12 +2,39 @@
 @import "header.css";
 @import "footer";
 @import "main"; */
+*{
+    padding: 0;
+    margin: 0;
+}
 
+:root{
+    --primary-color: #c3a13b;
+    --secondary-color: #580b13;
+}
+    
 
 /*style pour faire disparaitre les images quand on passe la souris dessus*/
 div{
-    background-image: url(../Images/automne.jpeg);
-    height: 225;
-    width: 400;
-    margin: auto;
+    background-color: var(--primary-color);
+}
+
+nav>div>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav>div>ul>li{
+    font-size: 1.5rem;
+}
+
+nav>div>ul>li>a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+nav>div>ul>li>img{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
