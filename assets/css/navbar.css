@@ -10,6 +10,7 @@
 
 nav {
     background-color: var(--primary-color);
+    margin: 3rem;
 }
 
 nav>ul {
@@ -25,7 +26,7 @@ nav>ul>li>a {
 }
 
 
-img {
+img.logo {
     height: 80px;
     -webkit-animation:spin 8s linear infinite;
     -moz-animation:spin 8s linear infinite;
@@ -35,3 +36,25 @@ img {
     @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
     @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
     @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+    img.test-tourne {
+    height: 80px;
+    -webkit-animation:rotate 10s alternate infinite;
+    -moz-animation:rotate 10s alternate infinite;
+    -o-animation:rotate 10s alternate infinite;
+    animation:rotate 10s alternate infinite;
+    }
+    @-moz-keyframes rotate { 
+        from { -moz-transform: rotate(-45deg); } 
+        to { -moz-transform: rotate(45deg); }
+    }
+    @-webkit-keyframes rotate { 
+        from { -webkit-transform: rotate(-45deg); } 
+        to { -webkit-transform: rotate(45deg); }
+    }
+    @keyframes rotate { 
+        from { -moz-transform: rotate(-45deg); } 
+        to { -moz-transform: rotate(45deg); }
+    }
+    
+    
