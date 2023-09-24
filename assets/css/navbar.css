@@ -9,7 +9,9 @@
 }
 
 nav {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-image: url(../Images/map-navbar.png);
+    background-size: cover;
     margin: 3rem;
 }
 
@@ -21,17 +23,28 @@ nav>ul {
     padding: 1rem;
 }
 
-nav>ul>li>a {
+nav>ul>li.border>a {
+    padding: 5px 10px;
+    border-radius: 8px;;
+    border: 2px solid var(--secondary-color);
     font-size: 2rem;
+    text-decoration: none;
+    color: #e6e6e6;
+    background-color: rgba(88, 11, 19, 0.4);
 }
 
+nav>ul>li>a { 
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--secondary-color)
+}
 
 img.logo {
     height: 80px;
-    -webkit-animation:spin 8s linear infinite;
-    -moz-animation:spin 8s linear infinite;
-    -o-animation:spin 8s linear infinite;
-    animation:spin 8s linear infinite;
+    -webkit-animation:spin 12s linear infinite;
+    -moz-animation:spin 12s linear infinite;
+    -o-animation:spin 12s linear infinite;
+    animation:spin 12s linear infinite;
     }
     @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
     @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
@@ -39,10 +52,10 @@ img.logo {
 
     img.test-tourne {
     height: 80px;
-    -webkit-animation:rotate 10s alternate infinite;
-    -moz-animation:rotate 10s alternate infinite;
-    -o-animation:rotate 10s alternate infinite;
-    animation:rotate 10s alternate infinite;
+    -webkit-animation:rotate 6s alternate infinite;
+    -moz-animation:rotate 6s alternate infinite;
+    -o-animation:rotate 6s alternate infinite;
+    animation:rotate 6s alternate infinite;
     }
     @-moz-keyframes rotate { 
         from { -moz-transform: rotate(-45deg); } 
