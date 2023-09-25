@@ -66,8 +66,8 @@ img.logo {
         to { -webkit-transform: rotate(45deg); }
     }
     @keyframes rotate { 
-        from { -moz-transform: rotate(-45deg); } 
-        to { -moz-transform: rotate(45deg); }
+        from { -webkit-transform: rotate(-45deg); } 
+        to { -webkit-transform: rotate(45deg); }
     }
     
     
