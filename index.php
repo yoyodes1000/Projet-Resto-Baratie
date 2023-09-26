@@ -8,9 +8,11 @@
 
 </head>
 <body>
+
     <?php 
      include '_navbar.php';
     ?>
+    
     <h1>Accueil</h1>
     <nav>
     </nav>

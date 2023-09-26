@@ -12,7 +12,7 @@ nav {
     /* background-color: var(--primary-color); */
     background-image: url(../Images/map-navbar.png);
     background-size: cover;
-    margin: 3rem;
+    margin:3rem 0;
 }
 
 nav>ul {
@@ -48,9 +48,10 @@ img.logo {
     }
     @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
     @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @-o-keyframes spin { 100% { -o-transform: rotate(360deg); } }
     @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-    img.test-tourne {
+img.test-tourne {
     height: 80px;
     -webkit-animation:rotate 6s alternate infinite;
     -moz-animation:rotate 6s alternate infinite;
@@ -65,9 +66,14 @@ img.logo {
         from { -webkit-transform: rotate(-45deg); } 
         to { -webkit-transform: rotate(45deg); }
     }
+    @-o-keyframes rotate { 
+        from { -o-transform: rotate(-45deg); } 
+        to { -o-transform: rotate(45deg); }
+    }
+
     @keyframes rotate { 
-        from { -moz-transform: rotate(-45deg); } 
-        to { -moz-transform: rotate(45deg); }
+            from {transform: rotate(-45deg); } 
+            to {transform: rotate(45deg); }
     }
     
     
