@@ -1,0 +1,64 @@
+.teamPresentation{
+    display: grid; 
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    justify-items: center;
+    align-items: center;
+    margin: 5%;
+}
+
+
+.presentation{
+    text-align: center;
+    border: solid;
+    border-radius: 15%;
+    /* telephone */
+    font-size: 1rem; 
+    padding: 5%;
+    margin-bottom: 7%;
+}
+
+.container{
+    border-radius: 50%;
+    overflow : hidden;
+    /* telephone */
+    display : inline-block; width : 10rem; height : 10rem;
+    position : relative;
+    vertical-align : middle;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.container img{
+    position: absolute;
+}
+
+.pictureVictoria {
+    left: 0rem;
+    top : 0rem;
+}
+
+.pictureJohann {
+    left: 0rem;
+    top : 0rem;
+}
+
+.pictureMélissa {
+    left: 0rem;
+    top : -4rem;
+}
+
+.pictureEtienne {
+    left: 0rem;
+    top : -3rem;
+}
+
+.pictureAdeline {
+    left: 0rem;
+    top : -4rem;
+}
+
+img{
+    width: 105%;
+    height: auto;
+}
