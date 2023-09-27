@@ -28,7 +28,7 @@ img {
 */
 
 body{
-    background-image: url(../Images/background.jpg);
+    background-image: url(../Images/ocean.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
  } 
@@ -45,7 +45,7 @@ h1{
 }
 
 img.lebaratie{
-    width:60rem;
+    width:auto;
     height: 30rem;
     margin: auto;
     display: flex;
@@ -56,7 +56,7 @@ img.lebaratie{
 img.zeff{
     border-radius: 50%;
     height: 20rem;
-    
+    border: solid 2px black;
     display: flex;
     margin: auto;
     margin-bottom: 1rem;
@@ -64,25 +64,25 @@ img.zeff{
 }
 
 div.floating{
-    animation: floating 5s ease-in-out 0s alternate-reverse  infinite;
+    animation: floating 15s linear  infinite alternate;
 }
 
 @keyframes floating {
     0% {
-        transform: translateY(-15px);
+        transform: translateX(-250px);
     }
     /* 50% {
         transform: translateY(30px);
     } */
     100% {
-        transform: translateY(15px);
+        transform: translateX(250px);
     }
 
 }
 
 img.sanji{
     border-radius: 50%;
-    
+    border: solid 2px black;
     height: 14rem;
     display: flex;
     margin: auto;
@@ -91,11 +91,11 @@ img.sanji{
 }
 
 p{
-    
+    border-radius: 10px;
     font-size: 1.2rem;
     border: 2px solid black;
-    margin-left: 25rem;
-    margin-right: 25rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-bottom: 1rem;
 }
 

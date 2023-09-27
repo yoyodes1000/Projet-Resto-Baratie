@@ -42,7 +42,6 @@
 
     <img class=lebaratie src="assets/images/le-baratie.jpg" alt="Photo du restaurant le Baratie">
     
-    
     <div class=restaurant-presentation>
     <p>Bienvenue au restaurant Le Baratie, un lieu gastronomique unique où la passion pour la cuisine fusionne avec l'art de recevoir. Niché au cœur de la charmante ville de [insérer le nom de la ville], Le Baratie est bien plus qu'un simple restaurant, c'est une expérience culinaire inoubliable.
 
@@ -56,7 +55,7 @@ Le Baratie vous accueille dans une atmosphère chaleureuse et conviviale. Notre 
     <p>Zeef le Chef est bien plus qu'un simple chef cuisinier, c'est une véritable légende culinaire. Avec une carrière qui s'étend sur plusieurs décennies, Zeef est devenu une icône dans le monde de la cuisine. Sa passion inébranlable pour l'art culinaire et son dévouement à la création de plats exceptionnels ont fait de lui l'un des chefs les plus respectés et les plus admirés de son époque. </p>
     </div>
 <div class=floating>
-    <img  class = sanji src="assets/images/sanji.jpg" alt="Photo de Sanji">
+    <img  class = sanji src="assets/images/imagesSANJI.jpeg" alt="Photo de Sanji">
 </div>
     <div class=sanji-presentation>
         <p>
