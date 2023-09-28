@@ -5,53 +5,12 @@
 
 :root {
     --primary-color: #c3a13b;
-    --secondary-color: #580b13;
+    --secondary-color: #0d3b5f;
 }
 
-nav {
-    /* background-color: var(--primary-color); */
-    background-image: url(../Images/map-navbar.png);
-    background-size: cover;
-    margin: 3rem;
-}
 
-nav>ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style-type: none;
-    padding: 1rem;
-}
 
-nav>ul>li.border>a {
-    padding: 5px 10px;
-    border-radius: 8px;;
-    border: 2px solid var(--secondary-color);
-    font-size: 2rem;
-    text-decoration: none;
-    color: #e6e6e6;
-    background-color: rgba(88, 11, 19, 0.4);
-}
-
-nav>ul>li>a { 
-    font-size: 2rem;
-    text-decoration: none;
-    color: var(--secondary-color)
-}
-
-img.logo {
-    height: 80px;
-    -webkit-animation:spin 12s linear infinite;
-    -moz-animation:spin 12s linear infinite;
-    -o-animation:spin 12s linear infinite;
-    animation:spin 12s linear infinite;
-    }
-    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-    img.test-tourne {
-    height: 80px;
+img.test-tourne {
     -webkit-animation:rotate 6s alternate infinite;
     -moz-animation:rotate 6s alternate infinite;
     -o-animation:rotate 6s alternate infinite;
@@ -65,9 +24,55 @@ img.logo {
         from { -webkit-transform: rotate(-45deg); } 
         to { -webkit-transform: rotate(45deg); }
     }
+    @-o-keyframes rotate { 
+        from { -o-transform: rotate(-45deg); } 
+        to { -o-transform: rotate(45deg); }
+    }
+
     @keyframes rotate { 
-        from { -webkit-transform: rotate(-45deg); } 
-        to { -webkit-transform: rotate(45deg); }
+            from {transform: rotate(-45deg); } 
+            to {transform: rotate(45deg); }
     }
     
-    
+
+
+nav.desktop {
+    position: fixed;
+    width: 100vw;
+    height: 170px;
+    position: fixed;
+    background-image: url(../Images/ocean.jpeg);
+    display: flex;
+    align-items: center;
+}
+
+nav.desktop div {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    align-items: center;
+    background-image: url(../Images/map-navbar.png);
+}
+
+nav.desktop div ul {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav.desktop ul li {
+    padding: 10px 15px;
+}
+
+nav.desktop ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--secondary-color)
+}
+
+img.test-tourne {
+    height: 160px;
+}

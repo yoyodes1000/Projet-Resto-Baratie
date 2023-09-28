@@ -1,0 +1,129 @@
+/*.container {
+    overflow: hidden;
+    width: 30rem; 
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    width: 200rem; 
+    animation: carousel-animation 18s linear infinite alternate ; 
+}
+
+.slide {
+    width: 30rem; 
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+@keyframes carousel-animation {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-1450px); }
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@font-face {
+    font-family: "onepiecefont";
+    src: url(assets/images/onepiecefont.ttf);
+}
+
+
+
+body{
+    background-image: url(../Images/ocean-luffy.jpeg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.title {
+    position: relative;
+    text-align: center;
+    
+    
+}
+
+div.title img{
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    
+}
+
+.image-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 34px;
+    font-weight: bold;
+    
+    
+}
+
+
+
+img.zeff{
+    border-radius: 50%;
+    height: 20rem;
+    border: solid 2px black;
+    display: flex;
+    margin: auto;
+    margin-bottom: 1rem;
+    
+    
+}
+
+div.floating{
+    animation: floating 15s linear  infinite alternate;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateX(-50px);
+    }
+    /* 50% {
+        transform: translateY(30px);
+    } */
+    100% {
+        transform: translateX(50px);
+    }
+
+}
+
+img.sanji{
+    border-radius: 50%;
+    border: solid 2px black;
+    height: 14rem;
+    display: flex;
+    margin: auto;
+    margin-bottom: 1rem;
+    
+}
+
+p{
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    
+}
+
