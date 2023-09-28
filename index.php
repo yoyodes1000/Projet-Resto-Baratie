@@ -39,8 +39,7 @@
 
     <h1>Le baratie</h1>
     
-
-    <img class=lebaratie src="assets/images/le-baratie.jpg" alt="Photo du restaurant le Baratie">
+<img class=lebaratie src="assets/images/le-baratie.jpg" alt="Photo du restaurant le Baratie">
     
     <div class=restaurant-presentation>
     <p>Bienvenue au restaurant Le Baratie, un lieu gastronomique unique où la passion pour la cuisine fusionne avec l'art de recevoir. Niché au cœur de la charmante ville de [insérer le nom de la ville], Le Baratie est bien plus qu'un simple restaurant, c'est une expérience culinaire inoubliable.
