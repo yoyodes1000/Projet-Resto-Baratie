@@ -9,11 +9,9 @@
 
 </head>
 
- 
-<nav> 
+ <?php include "_navbar.php";
+ ?>
 
-
-</nav>
 
 <body>
 
