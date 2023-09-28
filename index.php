@@ -8,6 +8,7 @@
     
 
 </head>
+
  
 <nav> 
 
@@ -72,6 +73,3 @@ Le Baratie vous accueille dans une atmosphère chaleureuse et conviviale. Notre 
     
     </footer>
     
-
-</body>
-</html>
