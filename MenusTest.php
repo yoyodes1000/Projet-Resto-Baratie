@@ -26,6 +26,8 @@
     <li><a href="#Desserts">Desserts</a></li>  
 </ul> <br>
 
+<p>Ceci est un test</p>
+
 
 <h2 id="Starters">Entrees</h2><br>
 
