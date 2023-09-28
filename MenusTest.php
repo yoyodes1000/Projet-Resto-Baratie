@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
-
+    
     <title>Menus du Restaurant le Baratie</title>
 </head>
 <body>
@@ -21,9 +21,9 @@
     <h1>Ici ira la barre de navigation</h1>
     <br>
 <ul>   
-<li><a href="#Starters">Entrees</a></li>
-<li><a href="#Dishes">Plats</a></li>
-<li><a href="#Desserts">Desserts</a></li>  
+    <li><a href="#Starters">Entrees</a></li>
+    <li><a href="#Dishes">Plats</a></li>
+    <li><a href="#Desserts">Desserts</a></li>  
 </ul> <br>
 
 
@@ -39,6 +39,8 @@
 
 <h2 id="Desserts">Desserts</h2><br>
 
+
+<h3><a href="LA_CARTE.pdf" target="_blank">Voir le Menu</a></h3>
 
 
 </body>
