@@ -29,6 +29,7 @@
 
 <h2 id="Starters">Entrees</h2><br>
 
+<img src="misoSoup.jpg" alt="Image d'une soupe Miso tirée d'un mangas"/>
 
 
 
