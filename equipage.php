@@ -8,7 +8,7 @@
     <title>Equipages</title>
 </head>
 <body>
-    <h1>L'Equipages</h1>
+    <h1>L'Equipage</h1>
     <section class="teamPresentation" >
             <div class="container">
                 <img class="pictureVictoria" src="assets/Images/Victoria.jpg" alt="Picture of Victoria">

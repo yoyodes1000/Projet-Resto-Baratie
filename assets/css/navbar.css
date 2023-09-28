@@ -39,9 +39,9 @@ img.test-tourne {
 nav.desktop {
     position: fixed;
     width: 100vw;
-    height: 160px;
+    height: 170px;
     position: fixed;
-    background-color: #fff;
+    background-image: url(../Images/ocean.jpeg);
     display: flex;
     align-items: center;
 }
@@ -70,9 +70,9 @@ nav.desktop ul li a {
     text-decoration: none;
     font-size: 2rem;
     font-weight: 600;
+    color: var(--secondary-color)
 }
 
 img.test-tourne {
     height: 160px;
-    /* overflow-x:auto; */
 }
