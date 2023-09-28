@@ -2,12 +2,55 @@
 @import "header.css";
 @import "footer";
 @import "main"; */
-
-
-/*style pour faire disparaitre les images quand on passe la souris dessus*/
-div{
-    background-image: url(../Images/automne.jpeg);
-    height: 225;
-    width: 400;
-    margin: auto;
+*{
+    padding: 0;
+    margin: 0;
 }
+
+:root{
+    --primary-color: #c3a13b;
+    --secondary-color: #580b13;
+    --mer: #3f87a6;
+    --ligne: #2fc6b2;
+    --sable: #f69d3c;
+
+}
+/* Navbar */    
+div{
+    background-color: var(--primary-color);
+}
+
+nav>div>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav>div>ul>li{
+    font-size: 4vh;
+}
+
+nav>div>ul>li>a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+nav>div>ul>li>img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* height: 8rem; */
+    height: 10vh;
+    widht: auto;
+}
+
+/* fond d'écran qui ressemble à une plage*/
+
+div.plage{
+    width: 45vw;
+    height: 45vw;
+    /* background: linear-gradient(65deg,#3f87a6,#ebf8e1,#); */
+    background: linear-gradient(50deg, var(--mer), var(--ligne), var(--sable) 75%, var(--sable));
+    /* background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%); */
+}
+
