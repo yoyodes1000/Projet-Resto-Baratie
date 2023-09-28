@@ -26,8 +26,9 @@
     <li><a href="#Desserts">Desserts</a></li>  
 </ul> <br>
 
-<p>Ceci est un paragraphe pour faire un test</p>
-
+<section>
+<p>Citation de Sanji</p>
+</section>
 
 <h2 id="Starters">Entrees</h2><br>
 
