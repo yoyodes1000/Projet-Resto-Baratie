@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "onePieceFont";
+    src: url(/font/onePieceFont.ttf);
+}
+
+:root {
+--fontOnePiece: "onePieceFont";
+--font-title: 1.5rem;
+--font-text-content: "Maven Pro"
+}
+
+body {
+    background-image: url(../Images/background.jpg);
+    /* background-position: 100%; */
+    background-size: cover ;
+    
+}
+
+h1 {
+
+
+
+}
+
+h2 { img {
+    width: 300px;
+}
+
+
+}
+
+h3 {
+
+
+
+}
+
+footer {
+
+
+}
