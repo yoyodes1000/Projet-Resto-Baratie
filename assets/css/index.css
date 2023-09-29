@@ -58,6 +58,7 @@ body{
 }
 
 div.title img{
+    padding-top: 140px;
     width: 70%;
     border-radius: 10px;
     margin-bottom: 1rem;
