@@ -1,31 +1,4 @@
-/*.container {
-    overflow: hidden;
-    width: 30rem; 
-    margin: 0 auto;
-}
 
-.slider {
-    display: flex;
-    width: 200rem; 
-    animation: carousel-animation 18s linear infinite alternate ; 
-}
-
-.slide {
-    width: 30rem; 
-    box-sizing: border-box;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-
-@keyframes carousel-animation {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-1450px); }
-}
-*/
 
 * {
     margin: 0;

@@ -10,7 +10,7 @@
 
 <body>
     <nav class="desktop">
-        <div class="centrer">
+        <!-- <div class="centrer"> -->
             <ul>
                 <li><a href="#">Accueil</a></li>
                 <li><a href="#">Menu</a></li>
@@ -18,8 +18,8 @@
                 <li><a href="#">Equipage</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-        </div>
-    </nav>
+        <!-- </div> -->
+    </nav> 
     
     <!-- <nav class="mobile">
         <div id="mySidenav" class="sidenav">
