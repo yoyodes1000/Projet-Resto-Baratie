@@ -35,8 +35,8 @@ img {
 
 
 @font-face {
-    font-family: "onepiecefont";
-    src: url(assets/images/onepiecefont.ttf);
+    font-family: "onePieceFont";
+    src: url(assets/font/onePieceFont.ttf);
 }
 
 
@@ -52,19 +52,16 @@ body{
 
 .title {
     position: relative;
-    text-align: center;
-    
+    text-align: center;  
     
 }
 
 div.title img{
     padding-top: 140px;
-    width: 70%;
-    border-radius: 10px;
+    width: 50%;
+    border-radius: 40px;
     margin-bottom: 1rem;
-    
-    margin: 0;
-    padding: 0;
+    margin-top: 1rem;
 }
 
 
@@ -125,8 +122,8 @@ p{
     border-radius: 10px;
     font-size: 1.2rem;
     border: 2px solid black;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 1rem;
     background-image: url(../Images/.jpg);
     background-size: 20rem;
