@@ -45,6 +45,7 @@ nav.desktop {
     background-image: url(../Images/ocean.jpeg);
     display: flex;
     align-items: flex-end;
+    
 }
 
 nav.desktop div {

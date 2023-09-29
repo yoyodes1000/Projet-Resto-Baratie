@@ -42,9 +42,7 @@ img {
 
 
 body{
-    background-image: url(../Images/ocean-luffy.jpeg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #4FA4E9;
 }
 
 
@@ -56,12 +54,14 @@ body{
     
 }
 
+
 div.title img{
     padding-top: 140px;
     width: 50%;
     border-radius: 40px;
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    
+    box-shadow:  2px 7px 7px black;
 }
 
 
@@ -85,7 +85,7 @@ img.zeff{
     display: flex;
     margin: auto;
     margin-bottom: 1rem;
-    
+    box-shadow:  2px 7px 7px black;
     
 }
 
@@ -115,7 +115,7 @@ img.sanji{
     display: flex;
     margin: auto;
     margin-bottom: 1rem;
-    
+    box-shadow: 2px 5px 5px black;
 }
 
 p{
@@ -125,9 +125,9 @@ p{
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 1rem;
-    background-image: url(../Images/.jpg);
+    background-color: #D6C288;
     background-size: 20rem;
     background-repeat: no-repeat;
-    
+    box-shadow: 2px 5px 11px black;
 }
 
