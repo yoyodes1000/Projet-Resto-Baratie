@@ -37,13 +37,14 @@ img.test-tourne {
 
 
 nav.desktop {
+    z-index: 1977;
     position: fixed;
     width: 100vw;
-    height: 160px;
+    height: 140px;
     position: fixed;
-    background-color: #fff;
+    background-image: url(../Images/ocean.jpeg);
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 nav.desktop div {
@@ -70,9 +71,9 @@ nav.desktop ul li a {
     text-decoration: none;
     font-size: 2rem;
     font-weight: 600;
+    color: var(--secondary-color)
 }
 
 img.test-tourne {
     height: 160px;
-    /* overflow-x:auto; */
 }

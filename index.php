@@ -9,13 +9,13 @@
 
 </head>
 
- 
-<nav> 
-
-
-</nav>
+<?php
+    include "_navbar.php";
+?>
 
 <body>
+
+
     <header>
    <!-- <div class="container">
         <div class="slider">
@@ -37,12 +37,17 @@
    
 
     </header>   
-
-    <h1>Le baratie</h1>
+ <div class="title">
     
-<img class=lebaratie src="assets/images/le-baratie.jpg" alt="Photo du restaurant le Baratie">
+    <img src="assets/images/le-baratie.jpg" alt="Photo du restaurant lez Baratie">
+   
+    <div class="image-title">
+        <h1>Le baratie</h1>
+    </div>
+</div>
     
-    <div class=restaurant-presentation>
+ 
+ <div class=restaurant-presentation>
     <p>Bienvenue au restaurant Le Baratie, un lieu gastronomique unique où la passion pour la cuisine fusionne avec l'art de recevoir. Niché au cœur de la charmante ville de [insérer le nom de la ville], Le Baratie est bien plus qu'un simple restaurant, c'est une expérience culinaire inoubliable.
 
 Notre Ambiance :

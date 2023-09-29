@@ -27,31 +27,56 @@ img {
 }
 */
 
-body{
-    background-image: url(../Images/ocean.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
- } 
-/*body{
+* {
     margin: 0;
     padding: 0;
-}*/
-
-h1{
-    display: flex;
-    justify-content: center;
-    font-size: 4rem;
-
 }
 
-img.lebaratie{
-    width:auto;
-    height: 30rem;
-    margin: auto;
-    display: flex;
+
+
+@font-face {
+    font-family: "onePieceFont";
+    src: url(assets/font/onePieceFont.ttf);
+}
+
+
+
+body{
+    background-image: url(../Images/ocean-luffy.jpeg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.title {
+    position: relative;
+    text-align: center;  
+    
+}
+
+div.title img{
+    padding-top: 140px;
+    width: 50%;
+    border-radius: 40px;
     margin-bottom: 1rem;
-    border-radius: 20%;
+    margin-top: 1rem;
 }
+
+
+.image-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 34px;
+    font-weight: bold;
+    
+    
+}
+
+
 
 img.zeff{
     border-radius: 50%;
@@ -61,21 +86,24 @@ img.zeff{
     margin: auto;
     margin-bottom: 1rem;
     
+    
 }
 
 div.floating{
     animation: floating 15s linear  infinite alternate;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 @keyframes floating {
     0% {
-        transform: translateX(-250px);
+        transform: translateX(-50px);
     }
     /* 50% {
         transform: translateY(30px);
     } */
     100% {
-        transform: translateX(250px);
+        transform: translateX(50px);
     }
 
 }
@@ -94,8 +122,12 @@ p{
     border-radius: 10px;
     font-size: 1.2rem;
     border: 2px solid black;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 1rem;
+    background-image: url(../Images/.jpg);
+    background-size: 20rem;
+    background-repeat: no-repeat;
+    
 }
 

@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="assets/css/equipages.css">
     <title>Equipages</title>
 </head>
+<?php
+    include "_navbar.php";
+?>
 <body>
     <section class="teamPresentation" >
         <h1>L'Equipages</h1>
