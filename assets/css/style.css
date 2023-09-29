@@ -10,8 +10,20 @@
 :root{
     --primary-color: #c3a13b;
     --secondary-color: #580b13;
-
-
 }
 
+@font-face {
+    font-family: "onePieceFont";
+    src: url(assets/font/onePieceFont.ttf);
+}
 
+body{
+    background-image: url(../Images/ocean-luffy.jpeg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    position: relative;
+    text-align: center;  
+}
