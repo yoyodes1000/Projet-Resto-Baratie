@@ -1,0 +1,71 @@
+/* Ajout d'une police One Piece du site Police Final Frontier */
+@font-face {
+    font-family: "onePieceFont";
+    src: url(/font/onePieceFont.ttf);
+}
+
+
+:root {
+--fontOnePiece: "onePieceFont";
+--font-title: 1.5rem;
+--font-text-content: "Maven Pro"
+}
+
+h1 {
+    text-align: center;
+    background-color: yellow;
+    padding: 18px;
+}
+
+/* Liste ancrées dans le contenu texte */
+ul {
+display:flex;
+color:black;
+justify-content: space-evenly;
+list-style: none;
+font-weight: bold;
+font-size: var(--font-title);
+font-family: var(--fontOnePiece);
+padding: 0;
+}
+
+
+@media screen and (min-width: 780px) and (max-width: 979px) {
+    .ul, #Starters, #Dishes, #Desserts {
+        font-size: 3rem;
+    }
+}
+ul>li>a {
+    text-decoration: none;
+}
+
+section>p {
+    font-style: italic;
+    text-align: center;
+}
+
+#Starters {
+    font-family: var(--fontOnePiece);
+    font-size: var(--font-title);
+    text-indent: 10%;
+}
+
+#Dishes {
+    font-family: var(--fontOnePiece);
+    font-size: var(--font-title);
+    text-indent: 70%;
+}
+
+#Desserts {
+    font-family: var(--fontOnePiece);
+    font-size: var(--font-title);
+    text-indent: 10%;
+}
+
+
+h3, a {
+    font-family: var(--font-text-content);
+    text-decoration: none;
+    text-align: center;
+}
+
