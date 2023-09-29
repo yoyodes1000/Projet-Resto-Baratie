@@ -63,7 +63,10 @@ div.title img{
     border-radius: 10px;
     margin-bottom: 1rem;
     
+    margin: 0;
+    padding: 0;
 }
+
 
 .image-title {
     position: absolute;
@@ -125,6 +128,9 @@ p{
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 1rem;
+    background-image: url(../Images/.jpg);
+    background-size: 20rem;
+    background-repeat: no-repeat;
     
 }
 
