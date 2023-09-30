@@ -34,36 +34,28 @@ img.test-tourne {
             to {transform: rotate(45deg); }
     }
     
-
+/* Navbar desktop qui marche */
 
 nav.desktop {
-    z-index: 1977;
+    z-index: 2;
     position: fixed;
     width: 100vw;
     height: 100px;
     display: flex;
-    /* align-items: center; */
     background-image: url(../Images/map-navbar.png);
 }
-
-/* nav.desktop div {
-    display: flex;
-    width: 100vw;
-    height: 100px;
-    align-items: center;
-    background-image: url(../Images/map-navbar.png);
-} */
 
 nav.desktop ul {
     width: 100vw;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
     list-style-type: none;
 }
 
 nav.desktop ul li {
     padding: 10px 15px;
+    
 }
 
 nav.desktop ul li a {
@@ -76,4 +68,12 @@ nav.desktop ul li a {
 
 img.test-tourne {
     height: 160px;
+    margin-top: 70px;
 }
+
+nav.desktop ul li.txt a:hover {
+    background-color: #0d3b5f;
+    border-radius: 10px;
+    color: var(--primary-color);
+}
+

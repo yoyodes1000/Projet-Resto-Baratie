@@ -10,15 +10,13 @@
 
 <body>
     <nav class="desktop">
-        <!-- <div class="centrer"> -->
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Menu</a></li>
+                <li class="txt"><a href="#">Accueil</a></li>
+                <li class="txt"><a href="#">Menu</a></li>
                 <li><a href="#"><img class="test-tourne" src="assets/Images/logo.png" alt="logo du Baratie"></a></li>
-                <li><a href="#">Equipage</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="txt"><a href="#">Equipage</a></li>
+                <li class="txt"><a href="#">Contact</a></li>
             </ul>
-        <!-- </div> -->
     </nav> 
     
     <!-- <nav class="mobile">
