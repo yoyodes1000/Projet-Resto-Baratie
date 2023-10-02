@@ -8,34 +8,11 @@
     
 
 </head>
-
-<?php
-    include "_navbar.php";
-?>
-
 <body>
-
-
     <header>
-   <!-- <div class="container">
-        <div class="slider">
-            <div class="slide">
-                <img src="assets/Images/Food-1.jpg" alt="Image 1">
-            </div>
-            <div class="slide">
-                <img src="assets/Images/Food-2.jpg" alt="Image 2">
-            </div>
-            <div class="slide">
-                <img src="assets/Images/Food-3.jpg" alt="Image 3">
-            </div>
-            <div class="slide">
-                <img src="assets/Images/le-baratie.jpg" alt="Image 4">
-            </div>
-        </div>
-    </div>-->
-   
-   
-
+        <?php
+            include "_navbar.php";
+        ?>
     </header>   
  <div class="title">
     
