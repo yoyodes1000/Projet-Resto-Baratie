@@ -8,7 +8,7 @@
     --secondary-color: #0d3b5f;
 }
 
-
+/* Animation logo qui tourne */
 
 img.test-tourne {
     -webkit-animation:rotate 6s alternate infinite;
@@ -34,28 +34,18 @@ img.test-tourne {
             to {transform: rotate(45deg); }
     }
     
-
+/* Navbar desktop qui marche */
 
 nav.desktop {
-    z-index: 1977;
+    z-index: 2;
     position: fixed;
-    width: 100vw;
-    height: 140px;
-    position: fixed;
-    background-image: url(../Images/ocean.jpeg);
-    display: flex;
-    align-items: flex-end;
-}
-
-nav.desktop div {
-    display: flex;
     width: 100vw;
     height: 100px;
-    align-items: center;
+    display: flex;
     background-image: url(../Images/map-navbar.png);
 }
 
-nav.desktop div ul {
+nav.desktop ul {
     width: 100vw;
     display: flex;
     align-items: center;
@@ -65,15 +55,26 @@ nav.desktop div ul {
 
 nav.desktop ul li {
     padding: 10px 15px;
+    
 }
 
 nav.desktop ul li a {
     text-decoration: none;
+    border-radius: 1px solid var(--secondary-color);
     font-size: 2rem;
     font-weight: 600;
     color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 
 img.test-tourne {
     height: 160px;
+    margin-top: 70px;
 }
+
+nav.desktop ul li.txt a:hover {
+    background-color: #0d3b5f;
+    border-radius: 10px;
+    color: var(--primary-color);
+}
+
