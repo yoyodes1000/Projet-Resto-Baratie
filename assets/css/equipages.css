@@ -1,3 +1,4 @@
+
 .teamPresentation{
     margin: 1vw;
     width: 100vw;
@@ -54,7 +55,7 @@ h1{
 }
 
 
-img{
+.picture{
     margin-top: 2rem;
     border-radius: 50%; 
     width: 50%;
@@ -84,7 +85,6 @@ img{
     }
 }
  
-
 
 p{
     border: solid;
