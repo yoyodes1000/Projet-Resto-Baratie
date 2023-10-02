@@ -4,45 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test Navbar</title>
-    <script src="script.js" defer></script>
-    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="../assets/css/_navbar-mobile.css" media="screen and (max-width: 640px)">
+    <link rel="stylesheet" href="../assets/css/_navbar-desktop.css" media="screen and (min-width: 641px)">
 </head>
-
 <body>
-    <nav class="desktop">
+    <nav>
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">x</a>
             <ul>
                 <li class="txt"><a href="#">Accueil</a></li>
-                <li class="txt"><a href="#">Menu</a></li>
-                <li><a href="#"><img class="test-tourne" src="assets/Images/logo.png" alt="logo du Baratie"></a></li>
+                <li class="txt"><a href="#">Menus</a></li>
+                <li class="hidden"><a href="#"></a></li>
                 <li class="txt"><a href="#">Equipage</a></li>
                 <li class="txt"><a href="#">Contact</a></li>
-            </ul>
-    </nav> 
-    
-    <!-- <nav class="mobile">
-        <div id="mySidenav" class="sidenav">
-            <a href="#" id="closeButton" class="close"></a>
-            <ul>
-                
-                <li class="border"><a href="#" >Accueil</a></li>
-                <li class="border"><a href="#" >Menu</a></li>
-                <li ><a href="#"><img src="assets/Images/logo.png" alt="logo du baratie" class="test-tourne"></a></li>
-                <li class="border"><a href="#" >Equipage</a></li>
-                <li class="border"><a href="#" >Contact</a></li>
-            </ul>
+            </ul> 
         </div>
-
-        <a href="#" id="openButton">
-            <span class="burger-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </span>
-        </a>
-    </nav> -->
-
-
-
+        <div class="navbar">
+            <div class="burger">
+                <a href="#" id="openBtn">
+                    <span class="burger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </a>
+            </div>
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="logo" class="test-tourne">
+            </div>
+        </div>
+    </nav>
     
+    <script src="assets/Javascript/script.js" defer></script>
 </body>
 </html>
