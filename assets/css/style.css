@@ -8,6 +8,7 @@
 }
 
 :root{
+    --fontOnePiece: "onePieceFont";
     --primary-color: #c3a13b;
     --secondary-color: #580b13;
 }
@@ -24,6 +25,7 @@ body{
 }
 
 h1{
+    font-family: var (--fontOnePiece);
     position: relative;
     text-align: center; 
     font-size: 5vw; 

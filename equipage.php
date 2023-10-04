@@ -12,7 +12,7 @@
     include "_navbar.php";
 ?>
     <section class="teamPresentation" >
-        <h1>L'Equipages</h1>
+        <h1>L'Equipage</h1>
             <div class="containerImageLeft" >
                 <div class="imageLeft">
                     <img class="picture" src="assets/Images/VictoriaSmall.jpg" alt="Picture of Victoria">

@@ -5,6 +5,7 @@
 }
 
 h1{
+    font-family: var (--fontOnePiece);
     padding-top: 170px;
     margin-bottom: 5vw;
 }
