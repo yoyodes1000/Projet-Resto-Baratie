@@ -32,8 +32,13 @@ div.title img{
     border-radius: 40px;
     margin-bottom: 1rem;
     margin-top: 2rem;
-    box-shadow: 5px 5px 7px black;
+    box-shadow: 3px 3px 7px black;
     margin-top: 7rem;
+    @media screen and (max-width: 640px){
+        width: 95%;
+        margin-top: 1rem;
+    
+    };
 }
 
 
@@ -42,10 +47,10 @@ div.title img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* font-size: 3rem; */
     font-weight: bold;
     font-family: "onePieceFont";
     font-size: clamp(1rem, calc(1rem + 2vw), 3rem);
+    
 }
 
 
@@ -66,6 +71,11 @@ div.floating{
     animation: floating 5s linear  infinite alternate;
     margin-left: 30%;
     margin-right: 30%;
+    @media screen and (max-width: 640px){
+        margin-left: 20%;
+        margin-right: 20%;
+    
+}
 }
 
 @keyframes floating {
@@ -94,7 +104,7 @@ img.sanji{
 p{
     border-radius: 10px;
     font-family: "Maven pro";
-    font-size: 1.2rem;
+    /*font-size: 1.5rem;*/
     border: 2px solid black;
     margin-left: 25%;
     margin-right: 25%;
@@ -103,5 +113,13 @@ p{
     background-size: 20rem;
     background-repeat: no-repeat;
     box-shadow: 2px 5px 11px black;
+    line-height: 1.8rem;
+    padding: 2rem;
+    text-align: justify;
+    @media screen and (max-width: 640px){
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
 }
 
