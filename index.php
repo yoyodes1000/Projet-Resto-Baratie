@@ -9,13 +9,6 @@
 
 </head>
 
-
-<body>
-
-<?php
-include('_navbar.php');
-?>
-   
     </header>   
  <div class="title">
     
