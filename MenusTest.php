@@ -58,16 +58,12 @@
     <img src="assets\Images\Takoyaki.jpg" alt="Image d'un plat de Takoyaki tirée d'un mangas :  sous forme de boulettes de pâte, semblable à la pâte à crêpe, contenant des morceaux de poulpe, cuites en moule, comme les gaufres" style="width:100% ;">
 </div>    
 
-<<<<<<< HEAD
 <div class="mealCard">
     <h2>Takoyaki</h2>
     <p> Spécialitée d'Osaka et mets de la cuisine japonaise, les petites boules de poulpes. <br>
         Ingrédients : poulpes, farine de blé, sauce soja, oeufs, dashi, ciboulette, aonori. </p>
 </div>
 </section>
-=======
-<img src="misoSoup.jpg" alt="Image d'une soupe Miso tirée d'un mangas" class="menu">
->>>>>>> 1c05b00b8e84bf8f2e8e678b08e69c896ecdcdbf
 
 <!-- Entrée 3 : SchotchEgg -->
 <section class="starters3">
