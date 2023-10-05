@@ -1,10 +1,11 @@
 footer{
     width: 100vw;
     height: 50px;
-    background-color: rgb(80, 85, 91);
+    /* background-color: rgb(80, 85, 91); */
     color: var(--primary-color);
     font-weight: 600;
     display: flex;
+    margin-top: 2vw;
     /* position: fixed;
     bottom: 0; */
 }
