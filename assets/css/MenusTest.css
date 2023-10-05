@@ -27,8 +27,8 @@ body {
     font-weight: bold;
     font-size: var(--font-title);
     font-family: var(--fontOnePiece);
-    padding: 2%;
-    margin-top: 50%;
+    padding: 12%;
+    margin-bottom: ;
 }
 
 /* Pour la version desktop */
@@ -40,7 +40,7 @@ body {
     }
 }
 
-ul>li>a {
+.navigationTitle>li>a {
     color: black;
     font-size: xx-large;
     text-decoration: none;
@@ -49,21 +49,24 @@ ul>li>a {
     margin-bottom: 30%;
 }
 
-ul>li>a:hover {
+@media screen and (min-width:600px) {
+   .navigationTitle>.liTitle {
+   font-size: 50px;
+        }
+}
+
+.navigationTitle>li>a:hover {
 color: #e5d012;
 }
 
-@media screen and (min-width>600px) {
-    .navigationTittle {
-        font-size: 30rem;
-    }
-}
 
 /* Citation haut de page de Sanji */
 .sanjisQuote {
     display: block;
     font-style: italic;
     text-align: center;
+    font-size: var(--font-text-content);
+    margin-top: 7%;
 }
 
 /* Partie 1 : les entrées */
@@ -71,7 +74,7 @@ color: #e5d012;
     font-family: var(--fontOnePiece);
     font-size: var(--font-title);
     text-indent: 10%;
-    margin-top: 10%;
+    margin-top: 7%;
     margin-bottom: 5%;
 }
 
@@ -81,18 +84,8 @@ color: #e5d012;
         margin-top: 15%;
         margin-bottom: 4%;
         margin-right: 5%;
-    }
-        .menuPictures{
-            float: left;
-            width: 35vw;
-        }
-        .mealCard{
-            float: right;
-            width: 50%;
         }
     }
-    
-
 
 /* Entrée n1 = Soupe Miso (image + texte)*/
 .menuPictures {
@@ -183,6 +176,16 @@ flex-direction: column;
     margin-top: 10%;
     margin-bottom: 5%;
 }
+
+@media screen and (min-width: 600px) {
+    #Dishes {
+        font-size: 5rem;
+        margin-top: 15%;
+        margin-bottom: 4%;
+        margin-right: 5%;
+        }
+    }
+
 
 /* Plat n1 = Riz cantonais (image + texte)*/
 .menuPictures {
@@ -291,6 +294,16 @@ flex-direction: column;
     margin-top: 10%;
     margin-bottom: 5%;
 }
+
+@media screen and (min-width: 600px) {
+    #Desserts {
+        font-size: 5rem;
+        margin-top: 15%;
+        margin-bottom: 4%;
+        margin-right: 5%;
+        }
+    }
+
 
 
 /* Dessert n1 = Aisu Kohi (image + texte)*/
