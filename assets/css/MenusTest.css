@@ -7,9 +7,12 @@
 
 :root {
 --fontOnePiece: "onePieceFont";
---font-title: 1.5rem;
+--font-title: 3rem;
 --font-text-content: "Maven Pro"
+--width-picture-meal: 26rem;
+--height-picture-meal: 5rem;
 }
+
 
 h1 {
     text-align: center;
@@ -17,55 +20,386 @@ h1 {
     padding: 18px;
 }
 
+body {
+    background-color: #4F90C6;
+}
+
 /* Liste ancrées dans le contenu texte */
 ul {
-display:flex;
-color:black;
-justify-content: space-evenly;
-list-style: none;
-font-weight: bold;
-font-size: var(--font-title);
-font-family: var(--fontOnePiece);
-padding: 0;
+    display:flex;
+    color:black;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: bold;
+    font-size: var(--font-title);
+    font-family: var(--fontOnePiece);
+    padding: 0;
+    /* margin-top: 10%; */
 }
 
-
-@media screen and (min-width: 780px) and (max-width: 979px) {
-    .ul, #Starters, #Dishes, #Desserts {
-        font-size: 3rem;
+/* Pour la version desktop */
+@media screen and (min-width > 600px) {
+.menuPictures {
+    width: 27rem;
+    height: 13.5rem;
+    clip-path: ellipse(31% 46%);
     }
 }
+
 ul>li>a {
+    color: black;
+    font-size: xx-large;
     text-decoration: none;
+    font-family: var(--fontOnePiece);
+    margin-top: 30%;
+    margin-bottom: 30%;
 }
 
-section>p {
+
+.sanjisQuote {
+    display: block;
     font-style: italic;
     text-align: center;
+    margin: 50px;
 }
 
-#Starters {
+/* Partie 1 : les entrées */
+#Starters{
     font-family: var(--fontOnePiece);
     font-size: var(--font-title);
     text-indent: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
+@media screen and (min-width: 600px) {
+    #Starters {
+        font-size: 5rem;
+        margin-top: 15%;
+        margin-bottom: 4%;
+        margin-right: 5%;
+    }
+        .menuPictures{
+            float: left;
+            width: 35vw;
+        }
+        .mealCard{
+            float: right;
+            width: 50%;
+        }
+    }
+    
+
+
+/* Entrée n1 = Soupe Miso (image + texte)*/
+.menuPictures {
+    width: 26rem;
+    height: var(--height-picture-meal);
+    clip-path: ellipse(33% 50%);
+}
+
+/* Soupe Miso */
+.starters1 { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5%; 
+    background-color: aliceblue; 
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+
+/* Soupe Miso : titre et texte */
+.mealCard>h2 {
+    font-size: x-small;
+    text-decoration: solid;
+}
+
+.mealCard>p {
+    font-size: x-small;
+    font-family: var(--font-text-content);
+}
+
+
+/* Entrée n2 = Takokayi (image + texte)*/
+.menuPictures {
+    width: 26rem;
+    height: var(--height-picture-meal);
+    clip-path: ellipse(33% 50%);
+}
+    
+/* Takoyaki */
+.starters2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    margin-top: 5%;
+    background-color: aliceblue; 
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+    
+
+/* Entrée n3 = SchotchEggs (image + texte)*/
+.menuPictures {
+    width: 26rem;
+    height: var(--height-picture-meal);
+    clip-path: ellipse(33% 50%);
+/* border-radius: 80%; */
+}
+    
+/* Scotch Eggs */
+.starters3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 40px;
+    background-color: aliceblue; 
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    #Starters {
+display: flex;
+flex-direction: column;
+    }
+    .menuPictures>p {
+        display: none;
+    }
+}
+
+/* Partie 2 : les plats */
 #Dishes {
     font-family: var(--fontOnePiece);
     font-size: var(--font-title);
-    text-indent: 70%;
+    text-indent: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
+/* Plat n1 = Riz cantonais (image + texte)*/
+.menuPictures {
+    width: 26rem;
+    height: var(--height-picture-meal);
+    clip-path: ellipse(33% 50%);
+    }
+    
+/* Riz Cantonnais */
+.dishes1 { 
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5%; 
+    background-color: aliceblue; 
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+    }
+
+
+/* Riz Cantonais: titre et texte */    
+.mealCard>h2 {
+    font-size: x-small;
+    text-decoration: solid;
+    }
+    
+.mealCard>p {
+    font-size: x-small;
+    font-family: var(--font-text-content);
+    }
+
+
+/* Plat n2 = Ramen (image + texte)*/
+.menuPictures {
+    width: 26rem;
+    height: var(--height-picture-meal);
+    clip-path: ellipse(33% 50%);
+    }
+    
+/* Ramen */
+.dishes2 { 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5%; 
+    margin-top: 20px;
+    background-color: aliceblue; 
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+
+/* Ramen: titre et texte */
+.mealCard>h2 {
+    font-size: x-small;
+    text-decoration: solid;
+}
+    
+.mealCard>p {
+    font-size: x-small;
+    font-family: var(--font-text-content);
+}
+
+
+/* Plat n3 = Soba (image + texte)*/
+.menuPictures {
+    width: 26rem;
+    height: var(--height-picture-meal);
+    clip-path: ellipse(33% 50%);
+
+    }
+    
+/* Soba */
+.dishes3 { 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5%; 
+    margin-top: 20px;
+    margin-bottom: 10%;
+    background-color: aliceblue; 
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+
+/* Soba: titre et texte */
+.mealCard>h2 {
+    font-size: x-small;
+    text-decoration: solid;
+}
+    
+.mealCard>p {
+    font-size: x-small;
+    font-family: var(--font-text-content);
+}
+
+
+/* Partie 3 : les desserts */
 #Desserts {
     font-family: var(--fontOnePiece);
     font-size: var(--font-title);
     text-indent: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 
+/* Dessert n1 = Aisu Kohi (image + texte)*/
+.menuPictures {
+    width: 26rem;
+    height: var(--height-picture-meal);
+    clip-path: ellipse(33% 50%);
+
+    }
+    
+/* Aisu Kohi */
+.dessert1 { 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 2%; 
+    background-color: aliceblue; 
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;    
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+
+/* Aisu Kohi: titre et texte */
+.mealCard>h2 {
+    font-size: x-small;
+    text-decoration: solid;
+}
+    
+.mealCard>p {
+    font-size: x-small;
+    font-family: var(--font-text-content);
+}
+
+
+/* Dessert n2 = Japanese Custard Pudding (image + texte)*/
+.menuPictures {
+    width: 26rem;
+    height: var(--height-picture-meal);
+    clip-path: ellipse(33% 50%);
+    }
+
+/* Japanese Custard Pudding */
+.dessert2 { 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 2%; 
+    background-color: aliceblue; 
+    border-radius: 10px;
+    margin-bottom: 5%;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+
+/* Japanese Custard Pudding: titre et texte */
+.mealCard>h2 {
+    font-size: x-small;
+    text-decoration: solid;
+}
+    
+.mealCard>p {
+    font-size: x-small;
+    font-family: var(--font-text-content);
+}
+
+/* Dessert n3 = Three Layer Cake Limoncello (image + texte)*/
+.menuPictures {
+    width: 26rem;
+    height: var(--height-picture-meal);
+    clip-path: ellipse(33% 50%);
+    }
+
+/* Three Layer Cake Limoncello */
+.dessert3 { 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 2%; 
+    background-color: aliceblue; 
+    border-radius: 10px;
+    margin-bottom: 20%;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+
+/* Three Layer Cake Limoncello: titre et texte */
+.mealCard>h2 {
+    font-size: x-small;
+    text-decoration: solid;
+}
+    
+.mealCard>p {
+    font-size: x-small;
+    font-family: var(--font-text-content);
+}
+
+
+
+
+
+
+/* Voir Menu PDF */
 h3, a {
     font-family: var(--font-text-content);
     text-decoration: none;
     text-align: center;
+    color: black;
 }
 
