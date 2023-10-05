@@ -19,7 +19,7 @@ body {
 }
 
 /* Titres (Entrées/Plats/Desserts) ancrées dans le contenu texte */
-ul {
+.navigationTitle {
     display:flex;
     color:black;
     justify-content: space-around;
@@ -31,7 +31,15 @@ ul {
     margin-top: 50%;
 }
 
-/* Titres Entrées/Plats/Desserts */
+/* Pour la version desktop */
+@media screen and (min-width > 600px) {
+.menuPictures {
+    width: 27rem;
+    height: 13.5rem;
+    clip-path: ellipse(31% 46%);
+    }
+}
+
 ul>li>a {
     color: black;
     font-size: xx-large;
