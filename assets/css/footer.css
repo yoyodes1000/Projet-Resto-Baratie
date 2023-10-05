@@ -1,0 +1,34 @@
+footer{
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(80, 85, 91);
+    color: var(--primary-color);
+    font-weight: 600;
+    display: flex;
+    /* position: fixed;
+    bottom: 0; */
+}
+
+footer.map {
+    background-image: url(../Images/map-navbar.png);
+}
+.left{
+    display: flex;
+    padding-left: 3vw;
+    float: left;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding-right: 5vw;
+    align-items: center;
+}
+
+img{
+    height: 29px;
+    width: auto;
+}
