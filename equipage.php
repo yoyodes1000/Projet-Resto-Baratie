@@ -3,39 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/equipages.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Equipages</title>
 </head>
 <body>
+
 <header>
         <?php
             include "_navbar.php";
         ?>
 </header>
-    <h1>L'Equipage</h1>
+    
+<main>
     <section class="teamPresentation" >
-            <div class="container">
-                <img class="pictureVictoria equipage" src="assets/Images/Victoria.jpg" alt="Picture of Victoria">
+        <h1>L'Equipage</h1>
+            <div class="containerImageLeft" >
+                <div class="imageLeft">
+                    <img class="picture" alt="picture"  
+                    onmouseout="this.src='assets/Images/VictoriaSmall.jpg';" 
+                    onmouseover="this.src='assets/Images/carteNavigation400x400.jpg';" 
+                    src="assets/Images/VictoriaSmall.jpg" />
+                </div>
+                <div class="presentationRight">
+                    <p class="presentationVictoria" >Victoria la tatouée.<br> Femme indépendante, navigatrice du Baratie, elle a déjà parcouru les mers d'East Blue ! Sur son dos, vous trouverez la carte du monde. Mais attention elle ne se laisse pas marcher sur les pieds, ne la cherchez pas ou vous allez la trouver ! </p>
+                </div>
             </div>
-            <p class="presentation" >Victoria la tatouée.<br> Femme indépendante, navigatrice du baratie, elle a déjà parcouru les mers d'East blue ! Vous trouverez d'ailleur sur son dos vous trouverez la carte du monde. Mais attention elle ne se laisse pas marcher sur les pieds, ne la cherchez pas ou vous allez la trouver ! </p>
-            <div class="container">
-                <img class="pictureJohann equipage" src="assets/Images/Johann.jpg" alt="Picture of Johann">
+            <div class="containerImageRight">
+                    <div class="imageRight">
+                        <img class="picture" alt="picture"  
+                    onmouseout="this.src='assets/Images/JohannSmall.jpg';" 
+                    onmouseover="this.src='assets/Images/Capone_Bege.jpg';" 
+                    src="assets/Images/JohannSmall.jpg" />
+                    </div>
+                    <div class="presentationLeft">
+                        <p class="presentationJohann">Johann le décontracté. <br> Ancien croupier, il a déjà eu affaire au pirate Capone Bege et s'en est sorti avec seulement quelques égratignures. Très bon cuisinier Il s'est fait remarquer par Zeff grâce à ses délicieuses râmen.</p>
+                    </div>
             </div>
-            <p class="presentation">Johann le décontracté. <br> Ancien croupier, il a déjà eu affaire au pirate Capone Bege et s'en est sorti avec quelques égratignures. Très bon cuisinier Il s'est fait remarquer par Zeff grâce à ses délicieuses pâtes au curry.</p>
-            <div class="container">
-                <img class="pictureMélissa equipage" src="assets/Images/Mélissa.jpg" alt="Picture of Mélissa">
+            <div class="containerImageLeft">
+                <div class="imageLeft">
+                    <img class="picture" alt="picture"  
+                    onmouseout="this.src='assets/Images/MelissaSmall.jpg';" 
+                    onmouseover="this.src='assets/Images/KomachiyoSmall.jpg';" 
+                    src="assets/Images/MelissaSmall.jpg" />
+                </div>
+                <div class="presentationRight">
+                    <p class="presentationMelissa">Mélissa la Dompteuse. <br> Aucun animal ne lui résiste! Toujours accompagnée de ses fidèles molosses Kaïdo et Rainbow, elle ne se bat presque jamais, et quand c'est nécessaire, elle utilise son fouet !</p>
+                </div>
             </div>
-            <p class="presentation">Mélissa la Dompteuse <br>. Accompagnée de ses fidèles molosses Kaïdo et Rainbow, aucun animal ne lui résiste! Elle ne se bat presque jamais sans ses compagnons, mais quand c'est nécessaire, elle utilise son fouet !</p>
-            <div class="container">
-                <img class="pictureEtienne equipage" src="assets/Images/Etienne.jpg" alt="Picture of Etienne">
+            <div class="containerImageRight">
+                <div class="imageRight">
+                    <img class="picture" alt="picture"  
+                    onmouseout="this.src='assets/Images/EtienneSmall.jpg';" 
+                    onmouseover="this.src='assets/Images/buggy.jpg';" 
+                    src="assets/Images/EtienneSmall.jpg" />
+                </div>
+                <div class="presentationLeft">
+                    <p class="presentationEtienne">Etienne le matelot. <br> Ancien lieutenant de la Marine, Etienne s'est fait renvoyer après avoir dérobé et mangé le Bara Bara no Mi, le fruit du démon de la fragmentation, qui permet à son utilisateur d'être immunisé contre les attaques coupantes et d'être capable de séparer les différentes parties de son corps et de les faire léviter.</p>
+                </div>
             </div>
-            <p class="presentation">Etienne le matelot. <br> Ancien matelot de la marine, Etienne c'est fait renvoyer après avoir dérobé et mangé le Bara Bara no Mi, le fruit du démon de lafragmentation, qui permet à son utilisateur d'être immunisé contre les attaques coupantes et d'être capable de séparer son corps en parties détachées et de les faire léviter.</p>
-            <div class="container">
-                <img class="pictureAdeline equipage" src="assets/Images/Adeline.jpg" alt="Picture of Adeline">
+            <div class="containerImageLeft">
+                <div class="imageLeft">
+                    <img class="picture" alt="picture"  
+                    onmouseout="this.src='assets/Images/AdelineSmall.jpg';" 
+                    onmouseover="this.src='assets/Images/chopper.jpg';" 
+                    src="assets/Images/AdelineSmall.jpg" />
+                </div>
+                <div class="presentationRight">
+                    <p class="presentationAdeline">Adeline la frileuse.<br> Vous la trouverez toujours avec un plaid; son principal ennemi : l'hiver. C'est un comble quand on sait qu'elle a grandi sur l'île de Drum , l'île hivernale de Grand Line qui a vu naître le célèbre Tony Tony Chooper.  </p>
+                </div>
             </div>
-            <p class="presentation">Adeline la frileuse .<br> Vous la trouverez toujours avec un plaid, son principal ennemi l'hiver. C'est un comble quand on sait qu'elle a grandi sur l'île de Drum , l'île hivernale de la Grand Line qui a vu naître le célèbre Tony Tony Chooper.  </p>
     </section>
+</main>
+<footer>
 
+</footer>
 </body>
 </html>

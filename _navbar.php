@@ -12,10 +12,10 @@
         <div id="mySidenav" class="sidenav">
             <a id="closeBtn" href="#" class="close">x</a>
             <ul>
-                <li class="txt"><a href="#">Accueil</a></li>
-                <li class="txt"><a href="#">Menus</a></li>
+                <li class="txt"><a href="index.php">Accueil</a></li>
+                <li class="txt"><a href="MenusTest.php">Menus</a></li>
                 <li class="hidden"><a href="#"></a></li>
-                <li class="txt"><a href="#">Equipage</a></li>
+                <li class="txt"><a href="equipage.php">Equipage</a></li>
                 <li class="txt"><a href="#">Contact</a></li>
             </ul> 
         </div>

@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Animation logo qui tourne */
+
+img.test-tourne {
+  -webkit-animation:rotate 6s alternate infinite;
+  -moz-animation:rotate 6s alternate infinite;
+  -o-animation:rotate 6s alternate infinite;
+  animation:rotate 6s alternate infinite;
+  }
+  @-moz-keyframes rotate { 
+      from { -moz-transform: rotate(-45deg); } 
+      to { -moz-transform: rotate(45deg); }
+  }
+  @-webkit-keyframes rotate { 
+      from { -webkit-transform: rotate(-45deg); } 
+      to { -webkit-transform: rotate(45deg); }
+  }
+  @-o-keyframes rotate { 
+      from { -o-transform: rotate(-45deg); } 
+      to { -o-transform: rotate(45deg); }
+  }
+
+  @keyframes rotate { 
+          from {transform: rotate(-45deg); } 
+          to {transform: rotate(45deg); }
+  }
+
+  div.navbar {
+    background-image: url(map-navbar.png);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  div.burger {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.logo {
+    float: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.logo img {
+    height: 160px;
+    margin-top: 60px;
+  }
+
+  li.hidden {
+    display: none;
+  }
+
+  /* Sidenav menu */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-image: url(background.jpg);
+  background-size: cover;
+  /* background-color: #aef0f9; */
+  padding-top: 60px;
+  transition: left 0.5s ease;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #3705b8;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #111;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Active class */
+.sidenav.active {
+  left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+/* Icône burger */
+.burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: #3705b8;
+  margin: 6px 0;
+}
