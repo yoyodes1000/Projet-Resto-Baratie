@@ -11,6 +11,10 @@
     --fontOnePiece: "onePieceFont";
     --primary-color: #c3a13b;
     --secondary-color: #580b13;
+    --fontOnePiece: "onePieceFont";
+    --font-title: 1.5rem;
+    --font-text-content: "Maven Pro"
+    
 }
 
 @font-face {

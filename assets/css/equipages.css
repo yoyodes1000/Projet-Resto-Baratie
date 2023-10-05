@@ -27,15 +27,6 @@ h1{
         margin-top: 1vw;
     }
 }
-/* .containerImageRight,
-.containerImageLeft{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 34px;
-    font-weight: bold;
-} */
 
 .containerImageLeft{
     width: auto;
@@ -56,13 +47,18 @@ h1{
 }
 
 
-.picture{
+.picture
+{
     margin-top: 2rem;
     border-radius: 50%; 
     width: 50%;
     align-items: center;
     filter: drop-shadow(0 0 0.75rem rgb(236, 232, 233));
+    
 }
+
+
+
 
 @media screen and (min-width:600px){
     .imageLeft{
@@ -88,7 +84,8 @@ h1{
  
 
 p{
-    border: solid;
+    border: solid black;
+    color: white;
     border-radius: 15%;
     font-size: 1rem;
     margin: 1vw;
