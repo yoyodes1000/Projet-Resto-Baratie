@@ -18,7 +18,7 @@
                     <!-- <img class="picture" src="assets/Images/VictoriaSmall.jpg" alt="Picture of Victoria">                       -->
                     <img class="picture" alt="picture"  
                     onmouseout="this.src='assets/Images/VictoriaSmall.jpg';" 
-                    onmouseover="this.src='assets/Images/carte\ navigation\ 400x400.jpg';" 
+                    onmouseover="this.src='assets/Images/carteNavigation400x400.jpg';" 
                     src="assets/Images/VictoriaSmall.jpg" />
                 </div>
                 <div class="presentationRight">

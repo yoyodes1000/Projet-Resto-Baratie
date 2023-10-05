@@ -6,9 +6,10 @@
 
 h1{
     font-family: var (--fontOnePiece);
-    padding-top: 170px;
+    padding-top: 10vw;
     margin-bottom: 5vw;
 }
+
 
 .containerImageRight{
     width: auto;
