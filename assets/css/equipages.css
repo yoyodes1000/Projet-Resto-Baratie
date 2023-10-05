@@ -1,64 +1,102 @@
+
 .teamPresentation{
-    display: grid; 
-    /* grid-template-columns: 1fr 1fr; */
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
-    justify-items: center;
+    margin: 1vw;
+    width: 100vw;
+}
+
+h1{
+    font-family: var (--fontOnePiece);
+    padding-top: 10vw;
+    margin-bottom: 5vw;
+}
+
+
+.containerImageRight{
+    width: auto;
+    /* background-color: aqua; */
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    flex-wrap: wrap;
+    align-items : center;
+    justify-content : space-around
+}
+
+@media screen and (min-width:600px){
+    .containerImageRight{
+        flex-direction:  row-reverse;
+        margin-top: 1vw;
+    }
+}
+
+.containerImageLeft{
+    width: auto;
+    /* background-color: rgb(38, 218, 158); */
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    flex-wrap: wrap;
+    align-items : center;
+    justify-content : space-around
+}
+
+@media screen and (min-width:600px){
+    .containerImageLeft{
+        margin-top: 1vw;
+        flex-direction: row
+    }
+}
+
+
+.picture
+{
+    margin-top: 2rem;
+    border-radius: 50%; 
+    width: 50%;
     align-items: center;
-    margin: 5%;
+    filter: drop-shadow(0 0 0.75rem rgb(236, 232, 233));
+    
 }
 
 
-.presentation{
-    text-align: center;
-    border: solid;
+
+
+@media screen and (min-width:600px){
+    .imageLeft{
+        float: left;
+        width: 35vw;
+    }
+    .presentationRight{
+        float: right;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:600px){
+    .imageRight{
+        float: right;
+        width: 35vw;
+    }
+    .presentationLeft{
+        float: left;
+        width: 65%;
+    }
+}
+ 
+
+p{
+    border: solid black;
+    color: white;
     border-radius: 15%;
-    /* telephone */
-    font-size: 1rem; 
-    padding: 5%;
-    margin-bottom: 7%;
+    font-size: 1rem;
+    margin: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding: 2vw;
 }
 
-.container{
-    border-radius: 50%;
-    overflow : hidden;
-    /* telephone */
-    display : inline-block; width : 10rem; height : 10rem;
-    position : relative;
-    vertical-align : middle;
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-
-.container img{
-    position: absolute;
-}
-
-.pictureVictoria {
-    left: 0rem;
-    top : 0rem;
-}
-
-.pictureJohann {
-    left: 0rem;
-    top : 0rem;
-}
-
-.pictureMélissa {
-    left: 0rem;
-    top : -4rem;
-}
-
-.pictureEtienne {
-    left: 0rem;
-    top : -3rem;
-}
-
-.pictureAdeline {
-    left: 0rem;
-    top : -4rem;
-}
-
-img{
-    width: 105%;
-    height: auto;
+@media screen and (min-width:600px){
+    p{
+        font-size: 1.8rem;
+    }
 }
