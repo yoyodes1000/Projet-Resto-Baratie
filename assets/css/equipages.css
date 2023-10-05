@@ -4,10 +4,21 @@
     width: 100vw;
 }
 
+/* @font-face {
+    font-family: "onePieceFont";
+    src: url(/font/onePieceFont.ttf);
+}
+:root {
+--fontOnePiece: "onePieceFont";
+--font-title: 1.5rem;
+--font-text-content: "Maven Pro"
+} */
+
 h1{
-    font-family: var (--fontOnePiece);
+
     padding-top: 10vw;
     margin-bottom: 5vw;
+    /* font-family: "onePieceFont"; */
 }
 
 

@@ -29,8 +29,8 @@ body{
 }
 
 h1{
-    font-family: var (--fontOnePiece);
+    font-family: "onePieceFont";
     position: relative;
     text-align: center; 
-    font-size: 5vw; 
+    font-size: 8vw; 
 }

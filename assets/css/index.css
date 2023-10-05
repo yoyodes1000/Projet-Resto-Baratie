@@ -1,31 +1,4 @@
-/*.container {
-    overflow: hidden;
-    width: 30rem; 
-    margin: 0 auto;
-}
 
-.slider {
-    display: flex;
-    width: 200rem; 
-    animation: carousel-animation 18s linear infinite alternate ; 
-}
-
-.slide {
-    width: 30rem; 
-    box-sizing: border-box;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-
-@keyframes carousel-animation {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-1450px); }
-}
-*/
 
 * {
     margin: 0;
@@ -36,7 +9,7 @@ img {
 
 @font-face {
     font-family: "onePieceFont";
-    src: url(assets/font/onePieceFont.ttf);
+    src: url(/font/onePieceFont.ttf);
 }
 
 
@@ -74,12 +47,12 @@ div.triche{
 }
 
 div.title img{
-   /* padding-top: 140px;**/
+   /* padding-top: 140px;*/
     width: 50%;
     border-radius: 40px;
     margin-bottom: 1rem;
     margin-top: 2rem;
-    box-shadow:  2px 7px 7px black;
+    box-shadow: 5px 5px 7px black;
 }
 
 
@@ -88,10 +61,10 @@ div.title img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 34px;
+    /* font-size: 3rem; */
     font-weight: bold;
-    
-    
+    font-family: "onePieceFont";
+    font-size: clamp(1rem, calc(1rem + 2vw), 3rem);
 }
 
 
@@ -139,6 +112,7 @@ img.sanji{
 
 p{
     border-radius: 10px;
+    font-family: "Maven pro";
     font-size: 1.2rem;
     border: 2px solid black;
     margin-left: 25%;

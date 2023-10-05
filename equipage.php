@@ -8,14 +8,18 @@
     <title>Equipages</title>
 </head>
 <body>
-<?php
-    include "_navbar.php";
-?>
+
+<header>
+        <?php
+            include "_navbar.php";
+        ?>
+</header>
+    
+<main>
     <section class="teamPresentation" >
         <h1>L'Equipage</h1>
             <div class="containerImageLeft" >
-                <div class="imageLeft">       
-                    <!-- <img class="picture" src="assets/Images/VictoriaSmall.jpg" alt="Picture of Victoria">                       -->
+                <div class="imageLeft">
                     <img class="picture" alt="picture"  
                     onmouseout="this.src='assets/Images/VictoriaSmall.jpg';" 
                     onmouseover="this.src='assets/Images/carteNavigation400x400.jpg';" 
@@ -27,7 +31,6 @@
             </div>
             <div class="containerImageRight">
                     <div class="imageRight">
-                        <!-- <img class="picture" src="assets/Images/JohannSmall.jpg" alt="Picture of Johann"> -->
                         <img class="picture" alt="picture"  
                     onmouseout="this.src='assets/Images/JohannSmall.jpg';" 
                     onmouseover="this.src='assets/Images/Capone_Bege.jpg';" 
@@ -39,7 +42,6 @@
             </div>
             <div class="containerImageLeft">
                 <div class="imageLeft">
-                    <!-- <img class="picture" src="assets/Images/MelissaSmall.jpg" alt="Picture of Mélissa"> -->
                     <img class="picture" alt="picture"  
                     onmouseout="this.src='assets/Images/MelissaSmall.jpg';" 
                     onmouseover="this.src='assets/Images/KomachiyoSmall.jpg';" 
@@ -51,7 +53,6 @@
             </div>
             <div class="containerImageRight">
                 <div class="imageRight">
-                    <!-- <img class="picture" src="assets/Images/EtienneSmall.jpg" alt="Picture of Etienne"> -->
                     <img class="picture" alt="picture"  
                     onmouseout="this.src='assets/Images/EtienneSmall.jpg';" 
                     onmouseover="this.src='assets/Images/buggy.jpg';" 
@@ -63,7 +64,6 @@
             </div>
             <div class="containerImageLeft">
                 <div class="imageLeft">
-                    <!-- <img class="picture" src="assets/Images/AdelineSmall.jpg" alt="Picture of Adeline"> -->
                     <img class="picture" alt="picture"  
                     onmouseout="this.src='assets/Images/AdelineSmall.jpg';" 
                     onmouseover="this.src='assets/Images/chopper.jpg';" 
@@ -74,6 +74,11 @@
                 </div>
             </div>
     </section>
-
+</main>
+<footer>
+<?php
+            include "footer.php";
+        ?>
+</footer>
 </body>
 </html>

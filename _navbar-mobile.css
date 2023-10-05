@@ -3,18 +3,6 @@
   padding: 0;
 }
 
-:root {
-  --fontOnePiece: "onePieceFont";
-
-}
-
-@font-face{
-  font-family: "onePieceFont";
-  src: url(/font/onePieceFont.ttf);
-}
-
-
-
 /* Animation logo qui tourne */
 
 img.test-tourne {
@@ -42,7 +30,7 @@ img.test-tourne {
   }
 
   div.navbar {
-    background-image: url(../Images/map-navbar.png);
+    background-image: url(map-navbar.png);
     height: 100px;
     display: flex;
     justify-content: space-around;
@@ -60,7 +48,6 @@ img.test-tourne {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
   }
 
   div.logo img {
@@ -80,8 +67,9 @@ img.test-tourne {
   z-index: 1;
   top: 0;
   left: -250px;
-  background-image: url(../Images/background.jpg);
+  background-image: url(background.jpg);
   background-size: cover;
+  /* background-color: #aef0f9; */
   padding-top: 60px;
   transition: left 0.5s ease;
 }
@@ -90,16 +78,14 @@ img.test-tourne {
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 2rem;
-  color: var(--primary-color);
+  font-size: 25px;
+  color: #3705b8;
   display: block;
   transition: 0.3s;
-  font-family: var(--fontOnePiece);
 }
 
 .sidenav a:hover {
   color: #111;
-  font-family: var(--fontOnePiece);
 }
 
 .sidenav ul {
@@ -111,7 +97,6 @@ img.test-tourne {
 /* Active class */
 .sidenav.active {
   left: 0;
-  font-family: var(--fontOnePiece);
 }
 
 /* Close btn */
@@ -127,14 +112,6 @@ img.test-tourne {
   display: block;
   width: 35px;
   height: 5px;
-
-  color: black;
-  /* background-color: var(--primary-color); */
+  background-color: #3705b8;
   margin: 6px 0;
-}
-
-span {
-  background-color: black;
-  width: 35px;
-  height: 5px;
 }

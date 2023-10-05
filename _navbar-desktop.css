@@ -3,19 +3,6 @@
     padding: 0;
 }
 
-:root {
-    --fontOnePiece: "onePieceFont";
-    --primary-color: #000;
-    --secondary-color: yellow;
-}
-
-@font-face{
-    font-family: "onePieceFont";
-    src: url(/font/onePieceFont.ttf);
-}
-
-
-
 /* Animation logo qui tourne */
 
 img.test-tourne {
@@ -46,7 +33,7 @@ nav {
     position: fixed;
     width: 100vw;
     height: 100px;
-    background-image: url(../Images/map-navbar.png);
+    background-image: url(map-navbar.png);
     display: flex;
     z-index: 1;
 }
@@ -72,14 +59,13 @@ div.sidenav ul li {
 }
 
 div.sidenav ul li a {
-    font-family: var(--fontOnePiece);
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 2rem;
     font-weight: 600;
     text-decoration: none;
-    color: var(--primary-color);
+    color: #3705b8;
 }
 
 div.navbar {
