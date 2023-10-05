@@ -22,7 +22,7 @@
         <img src="assets/images/le-baratie.jpg" alt="Photo du restaurant lez Baratie">
     
         <div class="image-title">
-            <h1>Le baratie</h1>
+            <h1>Le Baratie</h1>
         </div>
     </div>
         
