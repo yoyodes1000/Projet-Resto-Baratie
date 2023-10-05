@@ -1,17 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --fontOnePiece: "onePieceFont";
+  }
+  
+  @font-face{
+    font-family: "onePieceFont";
+    src: url(/font/onePieceFont.ttf);
+  }
+  
 footer{
     width: 100vw;
     height: 50px;
-    background-color: rgb(80, 85, 91);
+    background-image: url(../Images/map-navbar.png);   
     color: var(--primary-color);
     font-weight: 600;
     display: flex;
-    /* position: fixed;
-    bottom: 0; */
+    position: fixed;
+    bottom: 0;
 }
 
-footer.map {
-    background-image: url(../Images/map-navbar.png);
-}
 .left{
     display: flex;
     padding-left: 3vw;
@@ -29,6 +40,6 @@ footer.map {
 }
 
 img{
-    height: 29px;
+    height: 35px;
     width: auto;
 }

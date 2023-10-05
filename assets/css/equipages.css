@@ -1,7 +1,6 @@
-
-.teamPresentation{
-    margin: 1vw;
-    width: 100vw;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -9,7 +8,6 @@ h1{
     padding-top: 10vw;
     margin-bottom: 5vw;
 }
-
 
 .containerImageRight{
     width: auto;
@@ -47,7 +45,6 @@ h1{
     }
 }
 
-
 .picture
 {
     margin-top: 2rem;
@@ -57,9 +54,6 @@ h1{
     filter: drop-shadow(0 0 0.75rem rgb(236, 232, 233));
     
 }
-
-
-
 
 @media screen and (min-width:600px){
     .imageLeft{
@@ -83,7 +77,6 @@ h1{
     }
 }
  
-
 p{
     border: solid black;
     color: white;
