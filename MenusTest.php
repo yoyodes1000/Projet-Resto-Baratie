@@ -15,13 +15,11 @@
     <title>Menus du Restaurant le Baratié</title>
 </head>
 <body>
-<<<<<<< HEAD
-    <nav>
-        <!-- Include la nav bar ici -->
-    </nav>
-    <br>
-    <h1>Ici ira la barre de navigation</h1>
-    <br>
+<!-- <header>
+        <?php
+            include "_navbar.php";
+        ?>
+    </header> -->
 
     <!-- Les titres/liens permettant de scroller dans la page  -->
 <ul class="navigationTitle">   
@@ -50,22 +48,6 @@
     <p>Recette traditionnelle japonaise.<br> Ingrédients : riz, pomme de terre, chou cabus, oeuf cuit en rondelle, pleurote, coriandre, celeri, carotte. </p>
 </div>
 </section>
-=======
-    <header>
-        <?php
-            include "_navbar.php";
-        ?>
-    </header>
-    <ul>   
-        <li><a href="#Starters">Entrees</a></li>
-        <li><a href="#Dishes">Plats</a></li>
-        <li><a href="#Desserts">Desserts</a></li>  
-    </ul>
-
-    <section>
-        <p>Citation de Sanji</p>
-    </section>
->>>>>>> 1c05b00b8e84bf8f2e8e678b08e69c896ecdcdbf
 
 <!-- Entrée 2 : Takoyaki -->
 <section class="starters2">
@@ -73,16 +55,12 @@
     <img src="assets\Images\Takoyaki.jpg" alt="Image d'un plat de Takoyaki tirée d'un mangas :  sous forme de boulettes de pâte, semblable à la pâte à crêpe, contenant des morceaux de poulpe, cuites en moule, comme les gaufres" style="width:100% ;">
 </div>    
 
-<<<<<<< HEAD
 <div class="mealCard">
     <h2>Takoyaki</h2>
     <p> Spécialitée d'Osaka et mets de la cuisine japonaise, les petites boules de poulpes. <br>
         Ingrédients : poulpes, farine de blé, sauce soja, oeufs, dashi, ciboulette, aonori. </p>
 </div>
 </section>
-=======
-<img src="misoSoup.jpg" alt="Image d'une soupe Miso tirée d'un mangas" class="menu">
->>>>>>> 1c05b00b8e84bf8f2e8e678b08e69c896ecdcdbf
 
 <!-- Entrée 3 : SchotchEgg -->
 <section class="starters3">
