@@ -30,7 +30,7 @@
                 </a>
             </div>
             <div class="logo">
-                <img src="assets/images/logo.png" alt="logo" class="test-tourne">
+                <a href="#"><img src="assets/images/logo.png" alt="logo" class="test-tourne"></a>
             </div>
         </div>
     </nav>

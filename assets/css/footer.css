@@ -1,35 +1,39 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  :root {
-    --fontOnePiece: "onePieceFont";
-  }
-  
-  @font-face{
-    font-family: "onePieceFont";
-    src: url(/font/onePieceFont.ttf);
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fontOnePiece: "onePieceFont";
+  --primary-color: #0d3b5f;
+  --secondary-color: #e5d012;
+}
+
+@font-face{
+  font-family: "onePieceFont";
+  src: url(/font/onePieceFont.ttf);
+}
+
 footer{
+    display: flex;
+    align-items: flex-end;
     width: 100vw;
-    height: 50px;
-    /* background-color: rgb(80, 85, 91); */
+    height: 40px;
+    background-image: url(../Images/map-navbar.png);
     color: var(--primary-color);
     font-weight: 600;
     display: flex;
     margin-top: 2vw;
-    /* position: fixed;
-    bottom: 0; */
 }
 
 .left{
     display: flex;
+    font-size: 1.5rem;
     padding-left: 3vw;
     float: left;
     justify-content: flex-start;
     align-items: center;
+    padding-bottom: 5px;
 }
 
 .right {
@@ -40,7 +44,6 @@ footer{
     align-items: center;
 }
 
-.imgFooter{
-    height: 29px;
-    width: auto;
+img.imgFooter {
+  height: 40px;
 }

@@ -43,9 +43,8 @@
             <p> Sanji est un cuistot dévoué qui croit que la cuisine doit être préparée avec passion et dévouement. Il refuse de gaspiller de la nourriture et s'efforce toujours de fournir des repas de qualité, même dans les situations les plus difficiles. Sa philosophie culinaire s'inspire de son rêve de trouver le "All Blue", une légendaire mer où tous les ingrédients de toutes les mers se rejoignent pour créer la cuisine ultime. </p>
         </div>
     </main>
-    <footer>
         <?php 
             include 'footer.php'
         ?>
-    </footer>
+    
     

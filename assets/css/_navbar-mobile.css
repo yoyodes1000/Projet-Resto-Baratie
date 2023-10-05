@@ -5,7 +5,8 @@
 
 :root {
   --fontOnePiece: "onePieceFont";
-
+  --primary-color: #0d3b5f;
+  --secondary-color: #e5d012;
 }
 
 @font-face{
@@ -39,10 +40,14 @@ img.test-tourne {
   }
 
   div.navbar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
     background-image: url(../Images/map-navbar.png);
     height: 100px;
     display: flex;
     justify-content: space-around;
+    z-index: 1;
   }
 
   div.burger {
@@ -95,7 +100,7 @@ img.test-tourne {
 }
 
 .sidenav a:hover {
-  color: #111;
+  color: var(--secondary-color);
   font-family: var(--fontOnePiece);
 }
 
@@ -125,12 +130,11 @@ img.test-tourne {
   width: 40px;
   height: 8px;
   color: black;
-  background-color: black;
+  background-color: var(--primary-color);
   margin: 6px 0;
 }
 
 span {
-  /* background-color: black; */
   width: 35px;
   height: 5px;
 }
