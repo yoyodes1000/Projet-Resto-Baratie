@@ -1,5 +1,8 @@
 :root{
     --border-radius: 50%;
+    /* --font-text-content: "Maven Pro" */
+    --fontManga : "mangat";
+    --fontSatisfy : "satisfy";
 }
 
 .H1Equipage{
@@ -87,17 +90,20 @@
  
 .presentation{
     border: solid black;
-    color: white;
+    box-shadow: 2px 5px 11px black;
     border-radius: 15%;
     font-size: 1rem;
     margin: 1vw;
     margin-left: 1.5vw;
     margin-right: 2vw;
     padding: 2vw;
+    font-family: "satisfy";
+    background-color: #D6C288;
 }
 
 @media screen and (min-width:600px){
     .presentation{
         font-size: 1.5rem;
+        font-family: "satisfy";
     }
 }
