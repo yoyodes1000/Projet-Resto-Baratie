@@ -8,10 +8,29 @@
 }
 
 :root{
+    --fontOnePiece: "onePieceFont";
     --primary-color: #c3a13b;
     --secondary-color: #580b13;
-
-
+    --fontOnePiece: "onePieceFont";
+    --font-title: 1.5rem;
+    --font-text-content: "Maven Pro"
+    
 }
 
+@font-face {
+    font-family: "onePieceFont";
+    src: url(assets/font/onePieceFont.ttf);
+}
 
+body{
+    background-image: url(../Images/ocean-luffy.jpeg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: "onePieceFont";
+    position: relative;
+    text-align: center; 
+    font-size: 8vw; 
+}

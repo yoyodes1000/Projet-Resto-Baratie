@@ -41,6 +41,7 @@ img {
 
 
 h1 {
+    margin-top: 5rel;
     font-family: var(--fontOnePiece);
     color:  #0d3b5f;
     font-size: 50px;
@@ -139,13 +140,6 @@ p{
   button {
     width: 100%;
     margin-bottom: 2rem;
-  }
-  
-  img {
-    width: 180px;
-    height: 300px;
-    max-width: 600px;
-    margin-bottom: 1rem;
   }
   
   @media (max-width: 768px) {

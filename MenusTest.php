@@ -14,25 +14,24 @@
     <title>Menus du Restaurant le Baratie</title>
 </head>
 <body>
-    <nav>
-        <!-- Include la nav bar ici -->
-    </nav>
-    <br>
-    <h1>Ici ira la barre de navigation</h1>
-    <br>
-<ul>   
-    <li><a href="#Starters">Entrees</a></li>
-    <li><a href="#Dishes">Plats</a></li>
-    <li><a href="#Desserts">Desserts</a></li>  
-</ul> <br>
+    <header>
+        <?php
+            include "_navbar.php";
+        ?>
+    </header>
+    <ul>   
+        <li><a href="#Starters">Entrees</a></li>
+        <li><a href="#Dishes">Plats</a></li>
+        <li><a href="#Desserts">Desserts</a></li>  
+    </ul>
 
-<section>
-<p>Citation de Sanji</p>
-</section>
+    <section>
+        <p>Citation de Sanji</p>
+    </section>
 
 <h2 id="Starters">Entrees</h2><br>
 
-<img src="misoSoup.jpg" alt="Image d'une soupe Miso tirée d'un mangas"/>
+<img src="misoSoup.jpg" alt="Image d'une soupe Miso tirée d'un mangas" class="menu">
 
 
 

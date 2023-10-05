@@ -8,35 +8,6 @@
     
 
 </head>
-<?php
-    include "_navbar.php";
-?>
-<div class=triche>
-
-</div>
-
-<body>
-
-
-    <header>
-   <!-- <div class="container">
-        <div class="slider">
-            <div class="slide">
-                <img src="assets/Images/Food-1.jpg" alt="Image 1">
-            </div>
-            <div class="slide">
-                <img src="assets/Images/Food-2.jpg" alt="Image 2">
-            </div>
-            <div class="slide">
-                <img src="assets/Images/Food-3.jpg" alt="Image 3">
-            </div>
-            <div class="slide">
-                <img src="assets/Images/le-baratie.jpg" alt="Image 4">
-            </div>
-        </div>
-    </div>-->
-   
-   
 
     </header>   
  <div class="title">
@@ -50,7 +21,7 @@
     
  
  <div class=restaurant-presentation>
-    <p>Bienvenue au restaurant Le Baratie, un lieu gastronomique unique où la passion pour la cuisine fusionne avec l'art de recevoir. Niché au cœur de la charmante ville de East blue, Le Baratie est bien plus qu'un simple restaurant, c'est une expérience culinaire inoubliable.
+    <p>Bienvenue au restaurant Le Baratie, un lieu gastronomique unique où la passion pour la cuisine fusionne avec l'art de recevoir. Niché au cœur de la charmante ville de Eastblue, Le Baratie est bien plus qu'un simple restaurant, c'est une expérience culinaire inoubliable.
 
 Notre Ambiance :
 Le Baratie vous accueille dans une atmosphère chaleureuse et conviviale. Notre décor allie élégance moderne et charme rustique pour créer un cadre intime et apaisant. Des tables soigneusement dressées, des lumières tamisées et une musique d'ambiance envoûtante créent l'ambiance parfaite pour un dîner romantique, une réunion entre amis ou une célébration spéciale.</p>

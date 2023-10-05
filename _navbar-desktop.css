@@ -3,12 +3,7 @@
     padding: 0;
 }
 
-:root {
-    --primary-color: #c3a13b;
-    --secondary-color: #0d3b5f;
-}
-
-
+/* Animation logo qui tourne */
 
 img.test-tourne {
     -webkit-animation:rotate 6s alternate infinite;
@@ -33,48 +28,62 @@ img.test-tourne {
             from {transform: rotate(-45deg); } 
             to {transform: rotate(45deg); }
     }
-    
 
-
-nav.desktop {
-    z-index: 1977;
+nav {
     position: fixed;
-    width: 100vw;
-    height: 140px;
-    position: fixed;
-    background-image: url(../Images/ocean.jpeg);
-    display: flex;
-    align-items: flex-end;
-    
-}
-
-nav.desktop div {
-    display: flex;
     width: 100vw;
     height: 100px;
-    align-items: center;
-    background-image: url(../Images/map-navbar.png);
+    background-image: url(map-navbar.png);
+    display: flex;
+    z-index: 1;
 }
 
-nav.desktop div ul {
+div.sidenav {
+    display: flex;
+    height: 100px;
+    width: 100vw;
+}
+
+div.sidenav ul {
     width: 100vw;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
     list-style-type: none;
 }
 
-nav.desktop ul li {
+div.sidenav ul li {
+
+    width: 100vw;
     padding: 10px 15px;
+    display: flex;
+    justify-content: space-around;
 }
 
-nav.desktop ul li a {
-    text-decoration: none;
+div.sidenav ul li a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     font-size: 2rem;
     font-weight: 600;
-    color: var(--secondary-color)
+    text-decoration: none;
+    color: #3705b8;
 }
 
-img.test-tourne {
+div.navbar {
+    position: relative;
+}
+
+div.logo {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    transform: translateX(calc(-50vw - 80px));
+}
+
+div.logo img {
     height: 160px;
+    z-index: 2;
+}
+
+a.close {
+    display: none;
 }
