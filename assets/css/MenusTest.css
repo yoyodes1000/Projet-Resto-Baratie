@@ -18,7 +18,7 @@ body {
 }
 
 /* Liste ancrées dans le contenu texte */
-ul {
+.navigationTitle {
     display:flex;
     color:black;
     justify-content: space-evenly;
@@ -38,7 +38,7 @@ ul {
     }
 }
 
-ul>li>a {
+.navTitle {
     color: black;
     font-size: xx-large;
     text-decoration: none;
