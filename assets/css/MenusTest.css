@@ -14,19 +14,21 @@
 }
 
 body {
-    background-color: #4F90C6;
+    background-color:#4FA4E9;
+    
 }
 
-/* Liste ancrées dans le contenu texte */
+/* Titres (Entrées/Plats/Desserts) ancrées dans le contenu texte */
 .navigationTitle {
     display:flex;
     color:black;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style: none;
     font-weight: bold;
     font-size: var(--font-title);
     font-family: var(--fontOnePiece);
-    padding: 70px;
+    padding: 12%;
+    margin-bottom: ;
 }
 
 /* Pour la version desktop */
@@ -38,21 +40,33 @@ body {
     }
 }
 
-.navTitle {
+.navigationTitle>li>a {
     color: black;
     font-size: xx-large;
     text-decoration: none;
     font-family: var(--fontOnePiece);
-    margin-top: 30%;
+    margin-top: 60%;
     margin-bottom: 30%;
 }
 
+@media screen and (min-width:600px) {
+   .navigationTitle>.liTitle {
+   font-size: 50px;
+        }
+}
 
+.navigationTitle>li>a:hover {
+color: #e5d012;
+}
+
+
+/* Citation haut de page de Sanji */
 .sanjisQuote {
     display: block;
     font-style: italic;
     text-align: center;
-    margin-top: 50%;
+    font-size: var(--font-text-content);
+    margin-top: 7%;
 }
 
 /* Partie 1 : les entrées */
@@ -60,7 +74,7 @@ body {
     font-family: var(--fontOnePiece);
     font-size: var(--font-title);
     text-indent: 10%;
-    margin-top: 10%;
+    margin-top: 7%;
     margin-bottom: 5%;
 }
 
@@ -70,18 +84,8 @@ body {
         margin-top: 15%;
         margin-bottom: 4%;
         margin-right: 5%;
-    }
-        .menuPictures{
-            float: left;
-            width: 35vw;
-        }
-        .mealCard{
-            float: right;
-            width: 50%;
         }
     }
-    
-
 
 /* Entrée n1 = Soupe Miso (image + texte)*/
 .menuPictures {
@@ -95,12 +99,11 @@ body {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    padding: 5%; 
+    padding: 5px; 
     background-color: aliceblue; 
     border-radius: 10px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
-
 
 /* Soupe Miso : titre et texte */
 .mealCard>h2 {
@@ -127,8 +130,8 @@ body {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    padding: 5%;
-    margin-top: 5%;
+    padding: 5px;
+    margin-top: 20px;
     background-color: aliceblue; 
     border-radius: 10px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
@@ -140,7 +143,6 @@ body {
     width: var(--width-picture-meal);
     height: var(--height-picture-meal);
     clip-path: ellipse(33% 50%);
-border-radius: 80%;
 }
     
 /* Scotch Eggs */
@@ -148,9 +150,9 @@ border-radius: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2%;
-    margin-top: 5%;
-    margin-bottom: 40px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 70px;
     background-color: aliceblue; 
     border-radius: 10px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
@@ -175,6 +177,16 @@ flex-direction: column;
     margin-bottom: 5%;
 }
 
+@media screen and (min-width: 600px) {
+    #Dishes {
+        font-size: 5rem;
+        margin-top: 15%;
+        margin-bottom: 4%;
+        margin-right: 5%;
+        }
+    }
+
+
 /* Plat n1 = Riz cantonais (image + texte)*/
 .menuPictures {
     width: 26rem;
@@ -188,7 +200,7 @@ flex-direction: column;
     flex-direction: row-reverse;
     justify-content: space-between; 
     align-items: center; 
-    padding: 5%; 
+    padding: 5px; 
     background-color: aliceblue; 
     border-radius: 10px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
@@ -219,7 +231,7 @@ flex-direction: column;
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    padding: 5%; 
+    padding: 5px; 
     margin-top: 20px;
     background-color: aliceblue; 
     border-radius: 10px;
@@ -253,9 +265,9 @@ flex-direction: column;
     flex-direction: row-reverse;
     justify-content: space-between; 
     align-items: center; 
-    padding: 5%; 
+    padding: 5px; 
     margin-top: 20px;
-    margin-bottom: 10%;
+    margin-bottom: 70px;
     background-color: aliceblue; 
     border-radius: 10px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
@@ -283,6 +295,16 @@ flex-direction: column;
     margin-bottom: 5%;
 }
 
+@media screen and (min-width: 600px) {
+    #Desserts {
+        font-size: 5rem;
+        margin-top: 15%;
+        margin-bottom: 4%;
+        margin-right: 5%;
+        }
+    }
+
+
 
 /* Dessert n1 = Aisu Kohi (image + texte)*/
 .menuPictures {
@@ -297,11 +319,9 @@ flex-direction: column;
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    padding: 2%; 
+    padding: 5px; 
     background-color: aliceblue; 
-    border-radius: 10px;
-    margin-top: 5%;
-    margin-bottom: 5%;    
+    border-radius: 10px;   
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
 
@@ -331,10 +351,10 @@ flex-direction: column;
     flex-direction: row-reverse;
     justify-content: space-between; 
     align-items: center; 
-    padding: 2%; 
     background-color: aliceblue; 
+    padding: 5px; 
+    margin-top: 20px;
     border-radius: 10px;
-    margin-bottom: 5%;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
 
@@ -363,10 +383,11 @@ flex-direction: column;
     flex-direction: row-reverse;
     justify-content: space-between; 
     align-items: center; 
-    padding: 2%; 
     background-color: aliceblue; 
     border-radius: 10px;
-    margin-bottom: 20%;
+    padding: 5px; 
+    margin-top: 20px;
+    margin-bottom: 70px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
 
@@ -382,7 +403,7 @@ flex-direction: column;
     font-family: var(--font-text-content);
 }
 
-
+/*Fin des plats*/
 
 
 
@@ -394,4 +415,3 @@ h3, a {
     text-align: center;
     color: black;
 }
-
