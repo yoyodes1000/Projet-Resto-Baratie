@@ -34,6 +34,7 @@ div.title img{
     margin-top: 2rem;
     box-shadow: 5px 5px 7px black;
     margin-top: 7rem;
+    
 }
 
 
@@ -46,6 +47,7 @@ div.title img{
     font-weight: bold;
     font-family: "onePieceFont";
     font-size: clamp(1rem, calc(1rem + 2vw), 3rem);
+    
 }
 
 
