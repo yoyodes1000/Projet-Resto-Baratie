@@ -54,13 +54,8 @@ Le Baratie vous accueille dans une atmosphère chaleureuse et conviviale. Notre 
         
      
     </main>
-
     <footer>
-    <?php
-
-include ("footer.php");
-
-?>
-</footer>
+    
+    </footer>
     
     

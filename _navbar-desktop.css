@@ -30,7 +30,8 @@ img.test-tourne {
     }
 
 nav {
-    position: fixed;
+    position: absolute;
+    top: 0;
     width: 100vw;
     height: 100px;
     background-image: url(map-navbar.png);

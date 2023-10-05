@@ -21,7 +21,6 @@ h1{
     /* font-family: "onePieceFont"; */
 }
 
-
 .containerImageRight{
     width: auto;
     /* background-color: aqua; */
@@ -58,7 +57,6 @@ h1{
     }
 }
 
-
 .picture
 {
     margin-top: 2rem;
@@ -68,9 +66,6 @@ h1{
     filter: drop-shadow(0 0 0.75rem rgb(236, 232, 233));
     
 }
-
-
-
 
 @media screen and (min-width:600px){
     .imageLeft{
@@ -94,7 +89,6 @@ h1{
     }
 }
  
-
 p{
     border: solid black;
     color: white;
