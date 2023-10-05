@@ -20,15 +20,12 @@
             include "_navbar.php";
         ?>
     </header>
-    <br>
-    <h1>Ici ira la barre de navigation</h1>
-    <br>
 
     <!-- Les titres/liens permettant de scroller dans la page  -->
 <ul class="navigationTitle">   
-    <li><a class="navTitle" href="#Starters">Entrees</a></li>
-    <li><a class="navTitle" href="#Dishes">Plats</a></li>
-    <li><a class="navTitle" href="#Desserts">Desserts</a></li>  
+    <li class="liTitle"><a class="navTitle" href="#Starters">Entrees</a></li>
+    <li class="liTitle"><a class="navTitle" href="#Dishes">Plats</a></li>
+    <li class="liTitle"><a class="navTitle" href="#Desserts">Desserts</a></li>  
 </ul> <br>
 
 <!-- Citation/en-tête by Sanji -->
