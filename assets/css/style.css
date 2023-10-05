@@ -7,10 +7,11 @@
     margin: 0;
 }
 
+
 :root{
     --fontOnePiece: "onePieceFont";
-    --primary-color: #c3a13b;
-    --secondary-color: #580b13;
+    --primary-color: black;
+    --secondary-color: white;
     --fontOnePiece: "onePieceFont";
     --font-title: 1.5rem;
     --font-text-content: "Maven Pro"
@@ -29,8 +30,8 @@ body{
 }
 
 h1{
-    font-family: var (--fontOnePiece);
+    font-family: "onePieceFont";
     position: relative;
     text-align: center; 
-    font-size: 5vw; 
+    font-size: 8vw; 
 }

@@ -15,12 +15,13 @@
 footer{
     width: 100vw;
     height: 50px;
-    background-image: url(../Images/map-navbar.png);   
+    /* background-color: rgb(80, 85, 91); */
     color: var(--primary-color);
     font-weight: 600;
     display: flex;
-    position: fixed;
-    bottom: 0;
+    margin-top: 2vw;
+    /* position: fixed;
+    bottom: 0; */
 }
 
 .left{
@@ -39,7 +40,7 @@ footer{
     align-items: center;
 }
 
-img{
-    height: 35px;
+.imgFooter{
+    height: 29px;
     width: auto;
 }
