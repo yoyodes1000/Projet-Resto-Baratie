@@ -10,8 +10,8 @@
     <footer class="map">
             <div class="left">&#xa9;WCS-2023</div>
             <div class="right">
-                <a href="#"><img class="imgFooter" src="assets/Images/logo-facebook.png" alt="logo facebook" class="facebook"></a>
-                <a href="#"><img class="imgFooter" src="assets/Images/logo-instagram.png" alt="logo instagram" class="instagram"></a>
+                <a href="#" class="pimpoye"><img class="imgFooter" src="assets/Images/logo-facebook.png" alt="logo facebook" class="facebook"></a>
+                <a href="#" class="pimpoye"><img class="imgFooter" src="assets/Images/logo-instagram.png" alt="logo instagram" class="instagram"></a>
             </div>
     </footer>
 </body>

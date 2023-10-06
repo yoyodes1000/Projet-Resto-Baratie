@@ -4,11 +4,15 @@
     src: url(/font/onePieceFont.ttf);
 }
 
+@font-face {
+    font-family: "satisfy";
+    src: url(/font/Satisfy-Regular.ttf);
+}
 
 :root {
 --fontOnePiece: "onePieceFont";
 --font-title: 3rem;
---font-text-content: "Maven Pro";
+--font-text-content: "satisfy";
 --width-picture-meal: 26rem;
 --height-picture-meal: 5rem;
 }
@@ -65,7 +69,7 @@ color: #e5d012;
     display: block;
     font-style: italic;
     text-align: center;
-    font-size: var(--font-text-content);
+    font-size: 1.6rem;
     margin-top: 7%;
 }
 
@@ -89,7 +93,7 @@ color: #e5d012;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content: space-around;
+        /* align-content: space-around; */
         flex-wrap: wrap;
     }
     
@@ -99,8 +103,8 @@ color: #e5d012;
 @media screen and (min-width: 600px) {
     #Starters {
         font-size: 5rem;
-        margin-top: 15%;
-        margin-bottom: 4%;
+        margin-top: 3rem;
+        margin-bottom: 0;
         margin-right: 5%;
         }
     }
@@ -117,8 +121,8 @@ color: #e5d012;
         display: flex;
         justify-content: center;
         padding: 5%;
-        margin-bottom:0;    
-        height: 200px;
+        margin: 2rem auto;    
+        height: 300px;
         width: 1000px;
     }  
 }
@@ -128,7 +132,8 @@ color: #e5d012;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    }
+}
+
     .allMeals>.starters2 {
      display: flex;
      align-items: center;
@@ -141,25 +146,35 @@ color: #e5d012;
      justify-content: space-around;
      }
      .starters1>.mealCard>h2 {
-        font-size: 20px;
+        font-size: 2rem;
+        font-weight: bold;
     }
     .starters1>.mealCard>p {
-        font-size: 15px;
+        font-size: 1.3rem;
     }
     .starters2>.mealCard>h2 {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
     .starters2>.mealCard>p {
         font-size: 15px;
     }
     .starters3>.mealCard>h2 {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
     .starters3>.mealCard>p {
         font-size: 15px;
     }
-    .starters1>.mealCard>.menuPictures {
-        height: 10px;
+    .allMeals>.starters1> .menuPictures {
+        height: 55%;
+        width: 33%;
+    }
+    .allMeals>.starters2> .menuPictures {
+        height: 55%;
+        width: 33%;
+    }
+    .allMeals>.starters3> .menuPictures {
+        height: 55%;
+        width: 33%;
     }
  }
 
@@ -240,8 +255,8 @@ color: #e5d012;
 @media screen and (min-width: 600px) {
     #Dishes {
         font-size: 5rem;
-        margin-top: 5%;
-        margin-bottom: 4%;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
         margin-right: 5%;
         }
     }
@@ -258,7 +273,7 @@ color: #e5d012;
             display: flex;
             justify-content: center;
             padding: 5%;
-            height: 200px;
+            height: 300px;
             width: 1000px;
         }
     }
@@ -302,6 +317,18 @@ color: #e5d012;
          .dishes1>.mealCard>.menuPictures {
              height: 10px;
          }
+         .dishes1> .menuPictures {
+            height: 55%;
+            width: 33%;
+        }
+        .dishes2> .menuPictures {
+            height: 55%;
+            width: 33%;
+        }
+        .dishes3> .menuPictures {
+            height: 55%;
+            width: 33%;
+        }
       }
 
 /* Riz Cantonnais */
@@ -408,8 +435,8 @@ color: #e5d012;
 @media screen and (min-width: 600px) {
     #Desserts {
         font-size: 5rem;
-        margin-top: 15%;
-        margin-bottom: 4%;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
         margin-right: 5%;
         }
     }
@@ -420,7 +447,7 @@ color: #e5d012;
             justify-content: center;
             padding: 5%;
             margin-bottom:0;    
-            height: 200px;
+            height: 300px;
             width: 1000px;
         }  
     }
@@ -460,8 +487,17 @@ color: #e5d012;
         .dessert3>.mealCard>p {
             font-size: 15px;
         }
-        .dessert1>.mealCard>.menuPictures {
-            height: 10px;
+        .dessert1> .menuPictures {
+            height: 55%;
+            width: 33%;
+        }
+        .dessert2> .menuPictures {
+            height: 55%;
+            width: 33%;
+        }
+        .dessert3> .menuPictures {
+            height: 55%;
+            width: 33%;
         }
      }
     
@@ -570,9 +606,12 @@ color: #e5d012;
 
 
 /* Voir Menu PDF */
-h3, a {
+h3, a.menudubas {
     font-family: var(--font-text-content);
+    font-size: 2rem;
     text-decoration: none;
     text-align: center;
     color: black;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
 }
