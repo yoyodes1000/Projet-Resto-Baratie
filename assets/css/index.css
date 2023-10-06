@@ -1,4 +1,8 @@
-
+:root {
+    --fontOnePiece: "onePieceFont";
+    --font-title: 1.5rem;
+    --font-text-content: "Satisfy"
+    }
 
 * {
     margin: 0;
