@@ -64,12 +64,12 @@
 
 <form id="form" style="display: none;">
   <label for="prenom">Prénom:</label><br>
-  <input type="text" id="prenom" name="nom" value="prenom"><br>
+  <input type="text" id="prenom" name="nom" placeholder="Votre prénom"><br>
   <label for="nom">Nom:</label><br>
-  <input type="text" id="nom" name="nom" value="nom"><br><br>
+  <input type="text" id="nom" name="nom" placeholder="Votre nom"><br><br>
   <label for="heure">Indiquez l'heure:</label><br>
-  <input type="text" id="heure" name="heure" value="heure"><br><br>
-  <input type="submit" value="Confirmez">
+  <input type="text" id="heure" name="heure" placeholder="L'heure souhaité"><br><br>
+  <button type="submit">Confirmer</button>
 </form>
 
 <br>
