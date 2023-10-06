@@ -169,6 +169,10 @@ button {
     font-family: "Satisfy";
 }
 
+input {
+    border-radius: 10px;
+}
+
 form {
     color: #0d3b5f;
     font-size: 25px;
