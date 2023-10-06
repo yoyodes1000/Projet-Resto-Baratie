@@ -100,11 +100,7 @@ img.test-tourne {
 }
 
 .sidenav a:hover {
-<<<<<<< HEAD
-  color: #0d3b5f;
-=======
   color: var(--secondary-color);
->>>>>>> 78b6705c99a41025b2dc6775ce570549171b7218
   font-family: var(--fontOnePiece);
 }
 
@@ -131,17 +127,9 @@ img.test-tourne {
 /* Icône burger */
 .burger-icon span {
   display: block;
-<<<<<<< HEAD
-  width: 35px;
-  height: 5px;
-
-  color: #0d3b5f;
-  /* background-color: var(--primary-color); */
-=======
   width: 40px;
   height: 8px;
   background-color: var(--primary-color);
->>>>>>> 78b6705c99a41025b2dc6775ce570549171b7218
   margin: 6px 0;
 }
 

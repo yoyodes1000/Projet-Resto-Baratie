@@ -4,11 +4,7 @@
 <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
-<<<<<<< HEAD
-  <link rel="stylesheet" href="assets/css/style/css">
-=======
   <link rel="stylesheet" href="assets/css/style.css">
->>>>>>> 78b6705c99a41025b2dc6775ce570549171b7218
   <link rel="stylesheet" href="assets/css/contact.css">
   <script>
     function displayForm() {

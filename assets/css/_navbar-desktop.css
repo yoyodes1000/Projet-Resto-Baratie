@@ -6,11 +6,7 @@
 :root {
     --fontOnePiece: "onePieceFont";
     --primary-color: #0d3b5f;
-<<<<<<< HEAD
-    --secondary-color: yellow;
-=======
     --secondary-color: #e5d012;
->>>>>>> 78b6705c99a41025b2dc6775ce570549171b7218
 }
 
 @font-face{
