@@ -6,6 +6,9 @@
     <title>test Navbar</title>
     <link rel="stylesheet" href="../assets/css/_navbar-mobile.css" media="screen and (max-width: 640px)">
     <link rel="stylesheet" href="../assets/css/_navbar-desktop.css" media="screen and (min-width: 641px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
