@@ -98,7 +98,7 @@ img.test-tourne {
 }
 
 .sidenav a:hover {
-  color: #111;
+  color: #0d3b5f;
   font-family: var(--fontOnePiece);
 }
 
@@ -128,7 +128,7 @@ img.test-tourne {
   width: 35px;
   height: 5px;
 
-  color: black;
+  color: #0d3b5f;
   /* background-color: var(--primary-color); */
   margin: 6px 0;
 }

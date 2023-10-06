@@ -5,7 +5,7 @@
 
 :root {
     --fontOnePiece: "onePieceFont";
-    --primary-color: #000;
+    --primary-color: #0d3b5f;
     --secondary-color: yellow;
 }
 
@@ -44,6 +44,7 @@ img.test-tourne {
 
 nav {
     position: fixed;
+    top: 0;
     width: 100vw;
     height: 100px;
     background-image: url(../Images/map-navbar.png);
