@@ -23,7 +23,7 @@
 
 :root{
     --fontOnePiece: "onePieceFont";
-    --primary-color: black;
+    --primary-color: #0d3b5f;
     --secondary-color: white;
     --font-title: 1.5rem;
     --font-text-content: "Maven Pro";
