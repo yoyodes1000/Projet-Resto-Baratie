@@ -33,6 +33,7 @@
 
 
 <!-- Première catégorie du Menu : les Entrées -->
+<div class="allMeals">
 <div>
     <h2 id="Starters">Entrees</h2><br>
 </div>
@@ -158,7 +159,7 @@
         Ingrédients : farine de blé, bicarbonate de soude, beurre, sucre, oeuf, liqueur aromatisée au citron, citron, chocolat blanc, mascarpone, crème fouettée et sucre glace. </p>
 </div>
 </section>
-
+</div>
 
 
 <h3><a href="LA_CARTE.pdf" target="_blank">Voir le Menu</a></h3>
