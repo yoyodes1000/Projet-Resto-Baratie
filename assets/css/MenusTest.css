@@ -14,45 +14,65 @@
 }
 
 body {
-    background-color: #4F90C6;
+    background-color:#4FA4E9;
+    
 }
 
-/* Liste ancrées dans le contenu texte */
-ul {
+/* Titres (Entrées/Plats/Desserts) ancrées dans le contenu texte */
+.navigationTitle {
     display:flex;
     color:black;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style: none;
     font-weight: bold;
     font-size: var(--font-title);
     font-family: var(--fontOnePiece);
-    padding: 70px;
+    padding: 5%;
 }
 
-/* Pour la version desktop */
-@media screen and (min-width > 600px) {
-.menuPictures {
-    width: 27rem;
-    height: 13.5rem;
-    clip-path: ellipse(31% 46%);
-    }
-}
 
-ul>li>a {
+.navigationTitle>li>a {
     color: black;
     font-size: xx-large;
     text-decoration: none;
     font-family: var(--fontOnePiece);
-    margin-top: 30%;
-    margin-bottom: 30%;
+   padding-top: 8rem;
+}
+
+@media screen and (min-width:600px) {
+    .navigationTitle>.liTitle>a {
+   font-size: 55px;
+ }
+ .navigationTitle>.liTitle {
+    padding-top: 10rem;
+ }
+}
+    
+.navigationTitle {
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        padding-top: 2rem;
+    }
+
+
+    .navigationTitle>li>a:hover {
+color: #e5d012;
 }
 
 
+/* Citation haut de page de Sanji */
 .sanjisQuote {
     display: block;
     font-style: italic;
     text-align: center;
-    margin-top: 50%;
+    font-size: var(--font-text-content);
+    margin-top: 7%;
+}
+
+@media screen and (min-width: 600px) {
+    .sanjisQuote {
+    margin-top: 20px;
+    }
 }
 
 /* Partie 1 : les entrées */
@@ -60,9 +80,21 @@ ul>li>a {
     font-family: var(--fontOnePiece);
     font-size: var(--font-title);
     text-indent: 10%;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
+
+@media screen and (min-width:600px) {
+    .allMeals {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+}
+
 
 @media screen and (min-width: 600px) {
     #Starters {
@@ -70,18 +102,8 @@ ul>li>a {
         margin-top: 15%;
         margin-bottom: 4%;
         margin-right: 5%;
-    }
-        .menuPictures{
-            float: left;
-            width: 35vw;
-        }
-        .mealCard{
-            float: right;
-            width: 50%;
         }
     }
-    
-
 
 /* Entrée n1 = Soupe Miso (image + texte)*/
 .menuPictures {
@@ -90,18 +112,68 @@ ul>li>a {
     clip-path: ellipse(33% 50%);
 }
 
+@media screen and (min-width:600px) {
+    .starters1, .starters2, .starters3 {
+        display: flex;
+        justify-content: center;
+        padding: 5%;
+        margin-bottom:0;    
+        height: 200px;
+        width: 1000px;
+    }  
+}
+
+@media screen and (min-width:600px){
+   .allMeals>.starters1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    .allMeals>.starters2 {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     }
+ 
+    .allMeals>.starters3 {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     }
+     .starters1>.mealCard>h2 {
+        font-size: 20px;
+    }
+    .starters1>.mealCard>p {
+        font-size: 15px;
+    }
+    .starters2>.mealCard>h2 {
+        font-size: 20px;
+    }
+    .starters2>.mealCard>p {
+        font-size: 15px;
+    }
+    .starters3>.mealCard>h2 {
+        font-size: 20px;
+    }
+    .starters3>.mealCard>p {
+        font-size: 15px;
+    }
+    .starters1>.mealCard>.menuPictures {
+        height: 10px;
+    }
+ }
+
 /* Soupe Miso */
 .starters1 { 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    padding: 5%; 
+    padding: 5px; 
     background-color: aliceblue; 
     border-radius: 10px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
-
-
+    
 /* Soupe Miso : titre et texte */
 .mealCard>h2 {
     font-size: x-small;
@@ -127,8 +199,8 @@ ul>li>a {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    padding: 5%;
-    margin-top: 5%;
+    padding: 5px;
+    margin-top: 20px;
     background-color: aliceblue; 
     border-radius: 10px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
@@ -140,7 +212,6 @@ ul>li>a {
     width: var(--width-picture-meal);
     height: var(--height-picture-meal);
     clip-path: ellipse(33% 50%);
-border-radius: 80%;
 }
     
 /* Scotch Eggs */
@@ -148,23 +219,14 @@ border-radius: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2%;
-    margin-top: 5%;
-    margin-bottom: 40px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 70px;
     background-color: aliceblue; 
     border-radius: 10px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
 
-@media screen and (min-width: 800px) and (max-width: 1024px) {
-    #Starters {
-display: flex;
-flex-direction: column;
-    }
-    .menuPictures>p {
-        display: none;
-    }
-}
 
 /* Partie 2 : les plats */
 #Dishes {
@@ -175,20 +237,80 @@ flex-direction: column;
     margin-bottom: 5%;
 }
 
+@media screen and (min-width: 600px) {
+    #Dishes {
+        font-size: 5rem;
+        margin-top: 5%;
+        margin-bottom: 4%;
+        margin-right: 5%;
+        }
+    }
+
 /* Plat n1 = Riz cantonais (image + texte)*/
 .menuPictures {
     width: 26rem;
     height: var(--height-picture-meal);
     clip-path: ellipse(33% 50%);
     }
-    
+  
+@media screen and (min-width:600px){
+        .dishes1, .dishes2, .dishes3 {
+            display: flex;
+            justify-content: center;
+            padding: 5%;
+            height: 200px;
+            width: 1000px;
+        }
+    }
+
+
+    @media screen and (min-width:600px){
+        .allMeals>.dishes1 {
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         }
+         .allMeals>.dishes2 {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          }
+      
+         .allMeals>.dishes3 {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          }
+          .dishes1>.mealCard>h2 {
+             font-size: 20px;
+         }
+         .dishes1>.mealCard>p {
+             font-size: 15px;
+         }
+         .dishes2>.mealCard>h2 {
+             font-size: 20px;
+         }
+         .dishes2>.mealCard>p {
+             font-size: 15px;
+         }
+         .dishes3>.mealCard>h2 {
+             font-size: 20px;
+         }
+         .dishes3>.mealCard>p {
+             font-size: 15px;
+         }
+         .dishes1>.mealCard>.menuPictures {
+             height: 10px;
+         }
+      }
+
 /* Riz Cantonnais */
 .dishes1 { 
     display: flex; 
     flex-direction: row-reverse;
     justify-content: space-between; 
     align-items: center; 
-    padding: 5%; 
+    padding: 5px; 
     background-color: aliceblue; 
     border-radius: 10px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
@@ -219,7 +341,7 @@ flex-direction: column;
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    padding: 5%; 
+    padding: 5px; 
     margin-top: 20px;
     background-color: aliceblue; 
     border-radius: 10px;
@@ -253,9 +375,9 @@ flex-direction: column;
     flex-direction: row-reverse;
     justify-content: space-between; 
     align-items: center; 
-    padding: 5%; 
+    padding: 5px; 
     margin-top: 20px;
-    margin-bottom: 10%;
+    margin-bottom: 70px;
     background-color: aliceblue; 
     border-radius: 10px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
@@ -283,6 +405,66 @@ flex-direction: column;
     margin-bottom: 5%;
 }
 
+@media screen and (min-width: 600px) {
+    #Desserts {
+        font-size: 5rem;
+        margin-top: 15%;
+        margin-bottom: 4%;
+        margin-right: 5%;
+        }
+    }
+
+    @media screen and (min-width:600px) {
+        .desserts1, .desserts2, .desserts3 {
+            display: flex;
+            justify-content: center;
+            padding: 5%;
+            margin-bottom:0;    
+            height: 200px;
+            width: 1000px;
+        }  
+    }
+    
+    @media screen and (min-width:600px){
+       .allMeals>.dessert1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        }
+        .allMeals>.dessert2 {
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         }
+     
+        .allMeals>.dessert3 {
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         }
+         .dessert1>.mealCard>h2 {
+            font-size: 20px;
+        }
+        .dessert1>.mealCard>p {
+            font-size: 15px;
+        }
+        .dessert2>.mealCard>h2 {
+            font-size: 20px;
+        }
+        .sdesserts2>.mealCard>p {
+            font-size: 15px;
+        }
+        .dessert3>.mealCard>h2 {
+            font-size: 20px;
+        }
+        .dessert3>.mealCard>p {
+            font-size: 15px;
+        }
+        .dessert1>.mealCard>.menuPictures {
+            height: 10px;
+        }
+     }
+    
 
 /* Dessert n1 = Aisu Kohi (image + texte)*/
 .menuPictures {
@@ -292,16 +474,15 @@ flex-direction: column;
 
     }
     
+    
 /* Aisu Kohi */
 .dessert1 { 
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    padding: 2%; 
+    padding: 5px; 
     background-color: aliceblue; 
-    border-radius: 10px;
-    margin-top: 5%;
-    margin-bottom: 5%;    
+    border-radius: 10px;   
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
 
@@ -331,10 +512,10 @@ flex-direction: column;
     flex-direction: row-reverse;
     justify-content: space-between; 
     align-items: center; 
-    padding: 2%; 
     background-color: aliceblue; 
+    padding: 5px; 
+    margin-top: 20px;
     border-radius: 10px;
-    margin-bottom: 5%;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
 
@@ -363,10 +544,11 @@ flex-direction: column;
     flex-direction: row-reverse;
     justify-content: space-between; 
     align-items: center; 
-    padding: 2%; 
     background-color: aliceblue; 
     border-radius: 10px;
-    margin-bottom: 20%;
+    padding: 5px; 
+    margin-top: 20px;
+    margin-bottom: 70px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
 }
 
@@ -382,7 +564,7 @@ flex-direction: column;
     font-family: var(--font-text-content);
 }
 
-
+/*Fin des plats*/
 
 
 
@@ -394,4 +576,3 @@ h3, a {
     text-align: center;
     color: black;
 }
-

@@ -1,26 +1,24 @@
-
-/* .teamPresentation{
-    margin: 1vw;
-    width: 100vw;
-} */
-
-/* @font-face {
-    font-family: "onePieceFont";
-    src: url(/font/onePieceFont.ttf);
+:root{
+    --border-radius: 50%;
+    /* --font-text-content: "Maven Pro" */
+    --fontManga : "mangat";
+    --fontSatisfy : "satisfy";
+    --primary-color: #0d3b5f;
+    --background-color: #D6C288;
 }
-:root {
---fontOnePiece: "onePieceFont";
---font-title: 1.5rem;
---font-text-content: "Maven Pro"
-} */
 
-h1{
-
+.H1Equipage{
     padding-top: 10vw;
     margin-bottom: 5vw;
+    color: var(--primary-color);
     /* font-family: "onePieceFont"; */
 }
 
+@media screen and (min-width:600px){
+    .H1Equipage{
+        padding-top: 12vw;
+    }
+}
 
 .containerImageRight{
     width: auto;
@@ -30,7 +28,8 @@ h1{
     text-align:center;
     flex-wrap: wrap;
     align-items : center;
-    justify-content : space-around
+    justify-content : center;
+    margin-top: 2rem;
 }
 
 @media screen and (min-width:600px){
@@ -48,7 +47,8 @@ h1{
     text-align:center;
     flex-wrap: wrap;
     align-items : center;
-    justify-content : space-around
+    justify-content : center;
+    margin-top: 2rem;
 }
 
 @media screen and (min-width:600px){
@@ -58,24 +58,21 @@ h1{
     }
 }
 
-
 .picture
 {
-    margin-top: 2rem;
-    border-radius: 50%; 
+    /* margin-top: 2rem; */
+    /* border-radius: var(--border-radius); */
+    border-radius: 50%;  
     width: 50%;
     align-items: center;
     filter: drop-shadow(0 0 0.75rem rgb(236, 232, 233));
     
 }
 
-
-
-
 @media screen and (min-width:600px){
     .imageLeft{
         float: left;
-        width: 35vw;
+        width: 35%;
     }
     .presentationRight{
         float: right;
@@ -86,28 +83,31 @@ h1{
 @media screen and (min-width:600px){
     .imageRight{
         float: right;
-        width: 35vw;
+        width: 35%;
     }
     .presentationLeft{
         float: left;
-        width: 65%;
+        width: 50%;
     }
 }
  
-
-p{
+.presentation{
     border: solid black;
-    color: white;
+    box-shadow: 2px 5px 11px black;
     border-radius: 15%;
     font-size: 1rem;
     margin: 1vw;
-    margin-left: 2vw;
+    margin-left: 1.5vw;
     margin-right: 2vw;
     padding: 2vw;
+    font-family: var(--fontSatisfy);
+    background-color: var(--background-color);
+    color: var(--primary-color);
 }
 
 @media screen and (min-width:600px){
-    p{
-        font-size: 1.8rem;
+    .presentation{
+        font-size: 1.5rem;
+        font-family: "satisfy";
     }
 }

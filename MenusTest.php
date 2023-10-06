@@ -15,17 +15,17 @@
     <title>Menus du Restaurant le Baratié</title>
 </head>
 <body>
-<!-- <header>
+    <header>
         <?php
             include "_navbar.php";
         ?>
-    </header> -->
+    </header>
 
     <!-- Les titres/liens permettant de scroller dans la page  -->
 <ul class="navigationTitle">   
-    <li><a href="#Starters">Entrees</a></li>
-    <li><a href="#Dishes">Plats</a></li>
-    <li><a href="#Desserts">Desserts</a></li>  
+    <li class="liTitle"><a class="navTitle" href="#Starters">Entrees</a></li>
+    <li class="liTitle"><a class="navTitle" href="#Dishes">Plats</a></li>
+    <li class="liTitle"><a class="navTitle" href="#Desserts">Desserts</a></li>  
 </ul> <br>
 
 <!-- Citation/en-tête by Sanji -->
@@ -33,6 +33,7 @@
 
 
 <!-- Première catégorie du Menu : les Entrées -->
+<div class="allMeals">
 <div>
     <h2 id="Starters">Entrees</h2><br>
 </div>
@@ -158,7 +159,7 @@
         Ingrédients : farine de blé, bicarbonate de soude, beurre, sucre, oeuf, liqueur aromatisée au citron, citron, chocolat blanc, mascarpone, crème fouettée et sucre glace. </p>
 </div>
 </section>
-
+</div>
 
 
 <h3><a href="LA_CARTE.pdf" target="_blank">Voir le Menu</a></h3>

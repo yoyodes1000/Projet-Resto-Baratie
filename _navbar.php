@@ -16,7 +16,7 @@
                 <li class="txt"><a href="MenusTest.php">Menus</a></li>
                 <li class="hidden"><a href="#"></a></li>
                 <li class="txt"><a href="equipage.php">Equipage</a></li>
-                <li class="txt"><a href="#">Contact</a></li>
+                <li class="txt"><a href="_contact.php">Contact</a></li>
             </ul> 
         </div>
         <div class="navbar">
@@ -30,7 +30,7 @@
                 </a>
             </div>
             <div class="logo">
-                <img src="assets/images/logo.png" alt="logo" class="test-tourne">
+                <a href="#"><img src="assets/images/logo.png" alt="logo" class="test-tourne"></a>
             </div>
         </div>
     </nav>

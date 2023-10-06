@@ -5,7 +5,8 @@
 
 :root {
   --fontOnePiece: "onePieceFont";
-
+  --primary-color: #0d3b5f;
+  --secondary-color: #e5d012;
 }
 
 @font-face{
@@ -13,10 +14,7 @@
   src: url(/font/onePieceFont.ttf);
 }
 
-
-
 /* Animation logo qui tourne */
-
 img.test-tourne {
   -webkit-animation:rotate 6s alternate infinite;
   -moz-animation:rotate 6s alternate infinite;
@@ -42,10 +40,13 @@ img.test-tourne {
   }
 
   div.navbar {
+    position: fixed;
+    width: 100%;
     background-image: url(../Images/map-navbar.png);
     height: 100px;
     display: flex;
     justify-content: space-around;
+    z-index: 2;
   }
 
   div.burger {
@@ -66,18 +67,19 @@ img.test-tourne {
   div.logo img {
     height: 160px;
     margin-top: 60px;
+    z-index: 1;
   }
 
   li.hidden {
     display: none;
   }
 
-  /* Sidenav menu */
+  /* menu Navbar */
 .sidenav {
-  height: 100%;
-  width: 250px;
+  height: 50%;
+  width: 150px;
   position: fixed;
-  z-index: 1;
+  z-index: 4;
   top: 0;
   left: -250px;
   background-image: url(../Images/background.jpg);
@@ -86,7 +88,7 @@ img.test-tourne {
   transition: left 0.5s ease;
 }
 
-/* Sidenav menu links */
+/* liens Navbar */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -98,7 +100,11 @@ img.test-tourne {
 }
 
 .sidenav a:hover {
+<<<<<<< HEAD
   color: #0d3b5f;
+=======
+  color: var(--secondary-color);
+>>>>>>> 78b6705c99a41025b2dc6775ce570549171b7218
   font-family: var(--fontOnePiece);
 }
 
@@ -114,7 +120,7 @@ img.test-tourne {
   font-family: var(--fontOnePiece);
 }
 
-/* Close btn */
+/* bouton X */
 .sidenav .close {
   position: absolute;
   top: 0;
@@ -125,16 +131,17 @@ img.test-tourne {
 /* Icône burger */
 .burger-icon span {
   display: block;
+<<<<<<< HEAD
   width: 35px;
   height: 5px;
 
   color: #0d3b5f;
   /* background-color: var(--primary-color); */
+=======
+  width: 40px;
+  height: 8px;
+  background-color: var(--primary-color);
+>>>>>>> 78b6705c99a41025b2dc6775ce570549171b7218
   margin: 6px 0;
 }
 
-span {
-  background-color: black;
-  width: 35px;
-  height: 5px;
-}
