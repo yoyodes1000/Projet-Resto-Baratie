@@ -22,7 +22,7 @@
         <img src="assets/images/le-baratie.jpg" alt="Photo du restaurant lez Baratie">
     
         <div class="image-title">
-            <h1>Le baratie</h1>
+            <h1>Le Baratie</h1>
         </div>
     </div>
         
@@ -31,7 +31,7 @@
         <p>Bienvenue au restaurant Le Baratie, un lieu gastronomique unique où la passion pour la cuisine fusionne avec l'art de recevoir. Niché au cœur de la charmante ville de Eastblue, Le Baratie est bien plus qu'un simple restaurant, c'est une expérience culinaire inoubliable.
 
     Notre Ambiance :
-    Le Baratie vous accueille dans une atmosphère chaleureuse et conviviale. Notre décor allie élégance moderne et charme rustique pour créer un cadre intime et apaisant. Des tables soigneusement dressées, des lumières tamisées et une musique d'ambiance envoûtante créent l'ambiance parfaite pour un dîner romantique, une réunion entre amis ou une célébration spéciale.</p>
+    Le Baratie vous accueille dans une atmosphère chaleureuse et conviviale. Notre décor allie élégance moderne et charme rustique pour créer un cadre intime et apaisant. Des tables soigneusement dressées, des lumières tamisées et une musique d'ambiance envoûtante créent l'ambiance parfaite pour un dîner romantique, une réunion entre amis ou une célébration spéciale. </p>
         </div>
        
         <div class=floating>
@@ -39,12 +39,13 @@
         </div>   
           
         <div class=zeff-presentation>
-            <p>Zeef le Chef est bien plus qu'un simple chef cuisinier, c'est une véritable légende culinaire. Avec une carrière qui s'étend sur plusieurs décennies, Zeef est devenu une icône dans le monde de la cuisine. Sa passion inébranlable pour l'art culinaire et son dévouement à la création de plats exceptionnels ont fait de lui l'un des chefs les plus respectés et les plus admirés de son époque. </p>
+            <p>Zeef le Chef est bien plus qu'un simple chef cuisinier, c'est une véritable légende culinaire. Avec une carrière qui s'étend sur plusieurs décennies, Zeef est devenu une icône dans le monde de la cuisine. Sa passion inébranlable pour l'art culinaire et son dévouement à la création de plats exceptionnels ont fait de lui l'un des chefs les plus respectés et les plus admirés de son époque. 
+            </p>
        </div>
        
        <div class=floating>
             <img  class = sanji src="assets/images/imagesSANJI.jpeg" alt="Photo de Sanji">
-        </div>
+       </div>
             
             <div class=sanji-presentation>
                 <p>

@@ -1,92 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/contact.css">
+  <script>
+    function displayForm() {
+      const form = document.getElementById('form');
+      form.style.display = 'block';
+    }
+  </script>
 </head>
+<body>
 
 <?php
-    include "_navbar.php";
+    include "_navbar.php"; 
 ?>
 
-<br> 
+<main>
+
+<!-- <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> -->
+<div class="imagehaut">
+  <img class="img-bateau" src="assets/images/le-baratie.jpg" alt="Photo du restaurant lez Baratie">
+   
+  <h1 class="baratie">Le Baratie</h1>
+  </div>
+<!-- <br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br> 
-<br> 
 <br>
-<br> 
-<br>
-<br> 
 <br>
 <br> 
 <br>
-<br>
-<br>
+<br>  -->
+
+<div class="boxInfos">
+<h3 class="heure">Heures d'Ouverture :</h3>
+    <p class="para">Tous les jours de la semaine à toute heure de la journée</p>
+
 <br>
 
-<body>
-  <div class="container">
-    <h1>Le Baratie</h1>
-    <h2>Téléphone : 05.19.00.00.00</h2>
-    <h2>Email : lebaratie@eastblue.com</h2>
+<div class="bouton">    
+    <button onclick="displayForm()" class="Réservation">Réservez <br> une table</button> 
 
-
-<br> 
-<br>
-<br> 
-<br> 
-<br>
-<br> 
-<br>
-<br> 
-<br>
-<br> 
-<br>
-<br>
-<br>
 <br>
 
-    <button class="Réservation">Réservation</button>
+<form id="form" style="display: none;">
+  <label for="prenom">Prénom:</label><br>
+  <input type="text" id="prenom" name="nom" value="prenom"><br>
+  <label for="nom">Nom:</label><br>
+  <input type="text" id="nom" name="nom" value="nom"><br><br>
+  <label for="heure">Indiquez l'heure:</label><br>
+  <input type="text" id="heure" name="heure" value="heure"><br><br>
+  <input type="submit" value="Confirmez">
+</form>
 
-    <h4>Heures d'Ouverture :</h4>
-    <p>Tous les jours de la semaine à toute heure de la journée</p>
+<br>
 
+    <h4 class=embarquez>Où embarquer?</h4>
+</div>
+    <img class="map-contact" src="assets/Images/map_contact.jpg"
+      alt="map au tresor">
+      <br>
+      <p class="comeHere">Pour venir en bâteau, prendre les courants marins Ouest en remontant East Blue. 
+        Pour venir par les airs, prendre le mistral d'East Blue (conseillés en plein jour).
+        Pour venir par vos propres moyens, vous réferez à la carte. 
+        Montez à bord de l'embarcation du Baratie ! 
+      </p>
 <br> 
 <br>
-<br> 
-<br> 
-<br>
-<br> 
-<br>
-<br> 
-<br>
-<br> 
-<br>
-<br>
-<br>
+
+<p class="tel">Téléphone : 05.19.00.00.00</p>
+<p class="email">Email : lebaratie@eastblue.com</p>
+
 <br>    
 
-    <img src="assets/Images/map_contact.jpg"
-      alt="map au tresor">
+</main>
 
-  </div>
+<?php
 
-<br> 
-<br>
-<br> 
-<br> 
-<br>
-<br> 
-<br>
-<br> 
-<br>
-<br> 
-<br>
-<br>
-<br>
+include "footer.php";
+
+?>
 
 </body>
 </html>

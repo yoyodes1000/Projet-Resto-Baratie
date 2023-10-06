@@ -2,6 +2,19 @@
 @import "header.css";
 @import "footer";
 @import "main"; */
+@font-face {
+    font-family: "onePieceFont";
+    src: url(assets/font/onePieceFont.ttf);
+}
+@font-face {
+    font-family: "mangat";
+    src: url(/font/mangat.ttf);
+}
+@font-face {
+    font-family: "satisfy";
+    src: url(/font/Satisfy-Regular.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -10,18 +23,14 @@
 
 :root{
     --fontOnePiece: "onePieceFont";
-    --primary-color: black;
+    --primary-color: #0d3b5f;
     --secondary-color: white;
-    --fontOnePiece: "onePieceFont";
     --font-title: 1.5rem;
-    --font-text-content: "Maven Pro"
+    --font-text-content: "Maven Pro";
+    --fontAutumn : "mangat";
     
 }
 
-@font-face {
-    font-family: "onePieceFont";
-    src: url(assets/font/onePieceFont.ttf);
-}
 
 body{
     background-color: #4FA4E9;
