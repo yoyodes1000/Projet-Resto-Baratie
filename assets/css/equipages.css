@@ -3,11 +3,14 @@
     /* --font-text-content: "Maven Pro" */
     --fontManga : "mangat";
     --fontSatisfy : "satisfy";
+    --primary-color: #0d3b5f;
+    --background-color: #D6C288;
 }
 
 .H1Equipage{
     padding-top: 10vw;
     margin-bottom: 5vw;
+    color: var(--primary-color);
     /* font-family: "onePieceFont"; */
 }
 
@@ -97,8 +100,9 @@
     margin-left: 1.5vw;
     margin-right: 2vw;
     padding: 2vw;
-    font-family: "satisfy";
-    background-color: #D6C288;
+    font-family: var(--fontSatisfy);
+    background-color: var(--background-color);
+    color: var(--primary-color);
 }
 
 @media screen and (min-width:600px){
