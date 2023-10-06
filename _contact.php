@@ -73,7 +73,7 @@
 
 <br>
 
-    <h4 class=embarquez>Où embarquez?</h4>
+    <h4 class=embarquez>Où embarquer?</h4>
 </div>
     <img class="map-contact" src="assets/Images/map_contact.jpg"
       alt="map au tresor">
