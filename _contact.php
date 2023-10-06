@@ -21,6 +21,7 @@
 
 <main>
 
+<!-- <br>
 <br>
 <br>
 <br>
@@ -31,13 +32,13 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-
+<br> -->
+<div class="imagehaut">
   <img class="img-bateau" src="assets/images/le-baratie.jpg" alt="Photo du restaurant lez Baratie">
-    <h1 class="baratie">Le Baratie</h1>
-
-<br>
+   
+  <h1 class="baratie">Le Baratie</h1>
+  </div>
+<!-- <br>
 <br>
 <br>
 <br>
@@ -48,7 +49,7 @@
 <br>
 <br> 
 <br>
-<br> 
+<br>  -->
 
 <div class="boxInfos">
 <h3 class="heure">Heures d'Ouverture :</h3>
@@ -73,7 +74,7 @@
 
 <br>
 
-    <h4 class=embarquez>Où embarquez?</h4>
+    <h4 class=embarquez>Où embarquer?</h4>
 </div>
     <img class="map-contact" src="assets/Images/map_contact.jpg"
       alt="map au tresor">

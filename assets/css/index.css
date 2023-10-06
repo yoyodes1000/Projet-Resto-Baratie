@@ -1,4 +1,8 @@
-
+:root {
+    --fontOnePiece: "onePieceFont";
+    --font-title: 1.5rem;
+    --font-text-content: "Satisfy"
+    }
 
 * {
     margin: 0;
@@ -128,6 +132,7 @@ p{
     line-height: 1.8rem;
     padding: 2rem;
     text-align: justify;
+    color: #0d3b5f;
 }
 
 
