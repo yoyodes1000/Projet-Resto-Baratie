@@ -55,8 +55,6 @@
     <p class="para">Tous les jours de la semaine à toute heure de la journée</p>
 
 <br>
-<br>
-<br> 
 
 <div class="bouton">    
     <button onclick="displayForm()" class="Réservation">Réservez <br> une table</button> 
@@ -74,21 +72,16 @@
 </form>
 
 <br>
-<br> 
-<br>
-<br>
 
     <h4 class=embarquez>Où embarquez?</h4>
-<br>
 </div>
     <img class="map-contact" src="assets/Images/map_contact.jpg"
       alt="map au tresor">
       <br>
       <p class="comeHere">Pour venir en bâteau, prendre les courants marins Ouest en remontant East Blue. 
-        Pour venir en hippocampe, prendre les courants sous-marins Sud en remontant East Blue.
         Pour venir par les airs, prendre le mistral d'East Blue (conseillés en plein jour).
         Pour venir par vos propres moyens, vous réferez à la carte. 
-        Venez comme vous êtes !
+        Montez à bord de l'embarcation du Baratie ! 
       </p>
 <br> 
 <br>

@@ -1,6 +1,8 @@
 @font-face {
     font-family: "onePieceFont";
     src: url(/font/onePieceFont.ttf);
+    font-family: "Satisfy";
+    src: url(/font/Satisfy-Regular.ttf);
 }
 
 * {
@@ -11,7 +13,7 @@
 :root {
 --fontOnePiece: "onePieceFont";
 --font-title: 1.5rem;
---font-text-content: "Maven Pro"
+--font-text-content: "Satisfy"
 }
 
 body { 
@@ -66,39 +68,39 @@ body {
     color:  #0d3b5f;
     text-align: center;
     font-size: 80px;
-    z-index: 1;
+    z-index: 0.5;
 }
 
 .tel { 
     border-radius: 10px;
-    font-family: "Maven pro";
+    font-family: "Satisfy";
     font-size: 1.2rem;
     border: 2px solid black;
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 1rem;
-    background-color: #D6C288;
+    background-color: white;
     background-size: 20rem;
     background-repeat: no-repeat;
     box-shadow: 2px 5px 11px black;
-    color: white;
-    font-size: 15px;
+    color: black;
+    font-size: 20px;
     text-align: center;
 }
 
 .email {
     border-radius: 10px;
-    font-family: "Maven pro";
+    font-family: "Satisfy";
     border: 2px solid black;
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 1rem;
-    background-color: #D6C288;
+    background-color: white;
     background-size: 20rem;
     background-repeat: no-repeat;
     box-shadow: 2px 5px 11px black;
-    color: white;
-    font-size: 15px;
+    color:black;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -126,16 +128,17 @@ body {
     background-size: 20rem;
     background-repeat: no-repeat;
     box-shadow: 2px 5px 11px black;
-    color: white;
-    font-size: 15px;
+    color:black;
+    font-size: 25px;
 
 }
 
 .para { 
-    font-family: "Maven pro";
+    font-family: "Satisfy";
     font-size: 1.2rem;
     text-align: center;
     text-decoration-line: var(--font-text-content);
+    font-size: 20px;
 }
 
 
@@ -146,6 +149,7 @@ body {
   
 .container p {
     text-align: center;
+    font-family: "Satisfy";
 }  
 
 button {
@@ -157,25 +161,28 @@ button {
     text-decoration-line: var(--font-text-content);
     color: #0d3b5f;
     border-radius: 15%;
+    font-family: "Satisfy";
 }
 
 .bouton{
     text-align: center;
+    font-family: "Satisfy";
 }
 
 form {
     color: #0d3b5f;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     text-decoration-line: var(--font-text-content);
+    font-family: "Satisfy";
 }  
 
 .comeHere {
-    font-family: "Maven pro";
+    font-family: "Satisfy";
     font-size: 1.2rem;
     text-align: center;
-    color: white;
-    font-size: 15px;
+    color:black;
+    font-size: 20px;
 }
 
 footer {
